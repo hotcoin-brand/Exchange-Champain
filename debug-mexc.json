@@ -1,0 +1,29 @@
+{
+  "debug": [
+    {
+      "url": "https://www.mexc.com/announcements/all",
+      "error": "connect ETIMEDOUT 157.240.12.35:443"
+    },
+    {
+      "url": "https://www.mexc.com/announcements/new-listings",
+      "error": "connect ETIMEDOUT 157.240.12.35:443"
+    },
+    {
+      "url": "https://www.mexc.com/support/sections/360000030611-Announcements",
+      "error": "connect ETIMEDOUT 157.240.12.35:443"
+    },
+    {
+      "url": "https://www.mexc.com/announcements/all",
+      "playwrightError": "browserType.launch: Executable doesn't exist at C:\\Users\\M\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "url": "https://www.mexc.com/announcements/new-listings",
+      "playwrightError": "browserType.launch: Executable doesn't exist at C:\\Users\\M\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "url": "https://www.mexc.com/support/sections/360000030611-Announcements",
+      "playwrightError": "browserType.launch: Executable doesn't exist at C:\\Users\\M\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    }
+  ],
+  "timestamp": "2026-08-01T12:55:43.895Z"
+}
