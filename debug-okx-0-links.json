@@ -40,14 +40,6 @@
     "text": "USDG rewards"
   },
   {
-    "href": "/en-us/earn#from=home",
-    "text": "Earn Don’t just HODL. Earn"
-  },
-  {
-    "href": "/en-us/earn/onchain-earn",
-    "text": "On-chain Earn"
-  },
-  {
     "href": "/en-us/institutional",
     "text": "Institutional home The world’s most powerful suite of crypto trading solutions"
   },
@@ -118,5 +110,13 @@
   {
     "href": "/en-us/rewards-hub",
     "text": "Rewards"
+  },
+  {
+    "href": "/en-us/deposit-match/session",
+    "text": "Deposit match"
+  },
+  {
+    "href": "/en-us/referral",
+    "text": "Referral"
   }
 ]
