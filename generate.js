@@ -72,16 +72,60 @@ async function generateBinance() {
 }
 
 async function generateBybit() {
-  const url = 'https://api.bybit.com/v5/announcements/index?locale=en-US&limit=20';
-  const json = JSON.parse((await httpGet(url)).body);
-  const list = json.result.list || [];
-  const items = list.map(a => ({
-    title: a.title,
-    link: a.url,
-    pubDate: new Date(a.dateTimestamp).toUTCString(),
-  }));
-  fs.writeFileSync('feed-bybit.xml', buildRss('Bybit Announcements', 'https://announcements.bybit.com/en/', 'Bybit Latest Announcements', items));
-  console.log(`[Bybit] ${items.length} items`);
+  const candidates = [
+    { url: 'https://api.bybit.com/v5/announcements/index?locale=en-US&limit=20', headers: {} },
+    { url: 'https://api.bybit.com/v5/announcements/index?locale=zh-CN&limit=20', headers: {} },
+    { url: 'https://api.bybit.com/v5/announcements/index?locale=en-US&limit=20&page=1', headers: { 'Accept': 'application/json' } },
+  ];
+
+  for (const candidate of candidates) {
+    let res;
+    try {
+      res = await httpGet(candidate.url, {
+        headers: {
+          'Accept': 'application/json, text/plain, */*',
+          'Origin': 'https://www.bybit.com',
+          'Referer': 'https://www.bybit.com/',
+          'Sec-Fetch-Dest': 'empty',
+          'Sec-Fetch-Mode': 'cors',
+          'Sec-Fetch-Site': 'same-site',
+          ...(candidate.headers || {}),
+        },
+      });
+    } catch (e) {
+      fs.writeFileSync('debug-bybit.json', JSON.stringify({ url: candidate.url, error: e.message, timestamp: new Date().toISOString() }, null, 2));
+      continue;
+    }
+
+    fs.writeFileSync('debug-bybit.json', JSON.stringify({
+      url: candidate.url,
+      status: res.status,
+      bodyPreview: res.body.slice(0, 1000),
+      timestamp: new Date().toISOString(),
+    }, null, 2));
+
+    if (res.status !== 200 || !res.body.trim().startsWith('{')) continue;
+
+    try {
+      const json = JSON.parse(res.body);
+      const list = json.result?.list || [];
+      if (!list.length) continue;
+
+      const items = list.map(a => ({
+        title: a.title,
+        link: a.url,
+        pubDate: new Date(a.dateTimestamp || a.publishTime).toUTCString(),
+      }));
+      fs.writeFileSync('feed-bybit.xml', buildRss('Bybit Announcements', 'https://announcements.bybit.com/en/', 'Bybit Latest Announcements', items));
+      console.log(`[Bybit] ${items.length} items`);
+      return;
+    } catch (e) {
+      console.error('[Bybit] parse error:', e.message);
+    }
+  }
+
+  fs.writeFileSync('feed-bybit.xml', buildRss('Bybit Announcements (fetch failed)', 'https://announcements.bybit.com/en/', 'Bybit API fetch failed, see debug-bybit.json', []));
+  console.log('[Bybit] fetch failed, see debug-bybit.json');
 }
 
 async function generateOKX() {
@@ -145,40 +189,61 @@ async function generateHotcoin() {
 }
 
 async function generateGate() {
-  const urls = [
-    'https://www.gate.com/zh/announcements/activity',
-    'https://www.gate.io/zh/announcements/activity',
+  const candidates = [
+    { url: 'https://www.gate.com/zh/announcements/activity', origin: 'https://www.gate.com' },
+    { url: 'https://www.gate.io/zh/announcements/activity', origin: 'https://www.gate.io' },
+    { url: 'https://www.gate.com/zh/announcements', origin: 'https://www.gate.com' },
   ];
-  let lastErr;
-  for (const url of urls) {
+  const debug = [];
+
+  for (const candidate of candidates) {
+    let res;
     try {
-      const res = await httpGet(url, { followRedirects: true, maxRedirects: 2 });
-      if (res.status !== 200 || res.body.length < 5000) continue;
-
-      // 简单提取文章链接
-      const items = [];
-      const regex = /<a[^>]+href=["']([^"']*(?:announcements\/article|articlelist)[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi;
-      let m;
-      while ((m = regex.exec(res.body)) && items.length < 20) {
-        const href = m[1];
-        const title = m[2].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-        if (title.length > 8) {
-          items.push({ title, link: href.startsWith('http') ? href : `https://www.gate.com${href}`, pubDate: new Date().toUTCString() });
-        }
-      }
-
-      if (items.length > 0) {
-        fs.writeFileSync('feed-gate.xml', buildRss('Gate.io Announcements', 'https://www.gate.com/zh/announcements/activity', 'Gate.io Latest Announcements', items));
-        console.log(`[Gate] ${items.length} items`);
-        return;
-      }
+      res = await httpGet(candidate.url, {
+        followRedirects: true,
+        maxRedirects: 3,
+        headers: {
+          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+          'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+          'Referer': candidate.origin + '/',
+          'Origin': candidate.origin,
+          'Sec-Fetch-Dest': 'document',
+          'Sec-Fetch-Mode': 'navigate',
+          'Sec-Fetch-Site': 'same-origin',
+          'Upgrade-Insecure-Requests': '1',
+        },
+      });
     } catch (e) {
-      lastErr = e;
+      debug.push({ url: candidate.url, error: e.message });
+      continue;
+    }
+
+    debug.push({ url: candidate.url, status: res.status, bodyLength: res.body.length, bodyPreview: res.body.slice(0, 500) });
+    if (res.status !== 200 || res.body.length < 5000) continue;
+
+    // Gate 文章链接通常是 /zh/announcements/article/xxx 或 /article/xxx
+    const items = [];
+    const regex = /<a[^>]+href=["']([^"']*(?:\/announcements\/article|articlelist)[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi;
+    let m;
+    while ((m = regex.exec(res.body)) && items.length < 20) {
+      const href = m[1];
+      const title = m[2].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+      if (title.length > 8) {
+        const link = href.startsWith('http') ? href : (href.startsWith('/') ? candidate.origin + href : candidate.origin + '/' + href);
+        items.push({ title, link, pubDate: new Date().toUTCString() });
+      }
+    }
+
+    if (items.length > 0) {
+      fs.writeFileSync('feed-gate.xml', buildRss('Gate.io Announcements', candidate.url, 'Gate.io Latest Announcements', items));
+      console.log(`[Gate] ${items.length} items`);
+      return;
     }
   }
-  // 如果都失败，生成空 feed 占位
-  fs.writeFileSync('feed-gate.xml', buildRss('Gate.io Announcements (fetch failed - needs Playwright)', 'https://www.gate.com/zh/announcements/activity', `Gate.io blocked automated access. Last error: ${lastErr?.message || 'empty response'}`, []));
-  console.log(`[Gate] fetch failed - ${lastErr?.message || 'blocked'}`);
+
+  fs.writeFileSync('debug-gate.json', JSON.stringify({ debug, timestamp: new Date().toISOString() }, null, 2));
+  fs.writeFileSync('feed-gate.xml', buildRss('Gate.io Announcements (fetch failed - needs Playwright)', 'https://www.gate.com/zh/announcements/activity', 'Gate.io blocked automated access. If empty after 2-3 runs, enable Playwright in workflow.', []));
+  console.log('[Gate] fetch failed, see debug-gate.json');
 }
 
 (async () => {
