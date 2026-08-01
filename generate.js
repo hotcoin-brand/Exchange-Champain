@@ -167,7 +167,7 @@ async function generateBybit() {
 }
 
 async function generateOKX() {
-  const url = 'https://www.okx.com/help/section/announcements-latest-announcements';
+  const url = 'https://www.okx.com/zh-hans/help/section/latest-events';
   const res = await httpGet(url);
   const html = res.body;
 
@@ -179,10 +179,10 @@ async function generateOKX() {
 
   const items = list.map(a => ({
     title: a.title,
-    link: `https://www.okx.com/help/notice/${a.slug}`,
+    link: `https://www.okx.com/zh-hans/help/notice/${a.slug}`,
     pubDate: new Date(a.publishTime).toUTCString(),
   }));
-  fs.writeFileSync('feed-okx.xml', buildRss('OKX Latest Announcements', 'https://www.okx.com/help/section/announcements-latest-announcements', 'OKX Latest Announcements', items));
+  fs.writeFileSync('feed-okx.xml', buildRss('OKX 最新活动', url, 'OKX 最新活动中心公告', items));
   console.log(`[OKX] ${items.length} items`);
 }
 
