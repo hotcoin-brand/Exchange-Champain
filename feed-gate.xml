@@ -3,8 +3,8 @@
   <channel>
     <title>Gate.io Announcements (fetch failed - needs Playwright)</title>
     <link>https://www.gate.com/zh/announcements/activity</link>
-    <description>Gate.io blocked automated access. Last error: empty response</description>
-    <lastBuildDate>Sat, 01 Aug 2026 05:06:19 GMT</lastBuildDate>
+    <description>Gate.io blocked automated access. If empty after 2-3 runs, enable Playwright in workflow.</description>
+    <lastBuildDate>Sat, 01 Aug 2026 05:50:22 GMT</lastBuildDate>
 
   </channel>
 </rss>
