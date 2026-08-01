@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Gate.io Announcements (fetch failed - needs Playwright)</title>
+    <title>Gate.io Announcements (fetch failed)</title>
     <link>https://www.gate.com/zh/announcements/activity</link>
-    <description>Gate.io blocked automated access. If empty after 2-3 runs, enable Playwright in workflow.</description>
-    <lastBuildDate>Sat, 01 Aug 2026 13:26:41 GMT</lastBuildDate>
+    <description>Gate.io Latest Announcements. Needs Playwright or proxy.</description>
+    <lastBuildDate>Sat, 01 Aug 2026 12:54:40 GMT</lastBuildDate>
 
   </channel>
 </rss>

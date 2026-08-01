@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>MEXC Announcements (fetch failed)</title>
+    <link>https://www.mexc.com/announcements/all</link>
+    <description>MEXC Latest Announcements. Needs Playwright or proxy.</description>
+    <lastBuildDate>Sat, 01 Aug 2026 12:55:43 GMT</lastBuildDate>
+
+  </channel>
+</rss>

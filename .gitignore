@@ -1,0 +1,8 @@
+node_modules/
+*.log
+debug-*.json
+debug-*.html
+feed-*.xml
+discover.js
+.env
+.DS_Store

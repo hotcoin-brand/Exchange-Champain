@@ -36,6 +36,33 @@ function httpGet(url, opts = {}) {
   });
 }
 
+async function playwrightFetch(url, opts = {}) {
+  let playwright;
+  try {
+    playwright = require('playwright');
+  } catch (e) {
+    throw new Error('playwright not installed');
+  }
+
+  const browser = await playwright.chromium.launch({ headless: true });
+  try {
+    const context = await browser.newContext({
+      userAgent: opts.userAgent || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+      viewport: { width: 1280, height: 720 },
+      locale: opts.locale || 'zh-CN',
+    });
+    const page = await context.newPage();
+    await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 });
+    if (opts.waitForSelector) {
+      await page.waitForSelector(opts.waitForSelector, { timeout: 20000 }).catch(() => {});
+    }
+    const html = await page.content();
+    return html;
+  } finally {
+    await browser.close();
+  }
+}
+
 function buildRss(title, link, description, items) {
   const itemStr = items.map(i => `    <item>
       <title>${esc(i.title)}</title>
@@ -72,33 +99,44 @@ async function generateBinance() {
 }
 
 async function generateBybit() {
+  // 优先使用 Cloudflare Worker 反代（绕过 GitHub Actions 美国 IP 被 CloudFront geo block 的问题）
+  const workerUrl = process.env.BYBIT_WORKER_URL;
+  if (workerUrl) {
+    try {
+      const res = await httpGet(workerUrl);
+      if (res.status === 200 && res.body.includes('<item>')) {
+        fs.writeFileSync('feed-bybit.xml', res.body);
+        console.log('[Bybit] fetched from worker');
+        return;
+      }
+    } catch (e) {
+      console.error('[Bybit] worker fetch failed:', e.message);
+    }
+  }
+
+  // 本地/Actions 直接请求（大概率会失败，仅作兜底）
   const candidates = [
-    { url: 'https://api.bybit.com/v5/announcements/index?locale=en-US&limit=20', headers: {} },
-    { url: 'https://api.bybit.com/v5/announcements/index?locale=zh-CN&limit=20', headers: {} },
-    { url: 'https://api.bybit.com/v5/announcements/index?locale=en-US&limit=20&page=1', headers: { 'Accept': 'application/json' } },
+    'https://api.bybit.com/v5/announcements/index?locale=en-US&limit=20',
+    'https://api.bybit.com/v5/announcements/index?locale=zh-CN&limit=20',
   ];
 
-  for (const candidate of candidates) {
+  for (const url of candidates) {
     let res;
     try {
-      res = await httpGet(candidate.url, {
+      res = await httpGet(url, {
         headers: {
           'Accept': 'application/json, text/plain, */*',
           'Origin': 'https://www.bybit.com',
           'Referer': 'https://www.bybit.com/',
-          'Sec-Fetch-Dest': 'empty',
-          'Sec-Fetch-Mode': 'cors',
-          'Sec-Fetch-Site': 'same-site',
-          ...(candidate.headers || {}),
         },
       });
     } catch (e) {
-      fs.writeFileSync('debug-bybit.json', JSON.stringify({ url: candidate.url, error: e.message, timestamp: new Date().toISOString() }, null, 2));
+      fs.writeFileSync('debug-bybit.json', JSON.stringify({ url, error: e.message, timestamp: new Date().toISOString() }, null, 2));
       continue;
     }
 
     fs.writeFileSync('debug-bybit.json', JSON.stringify({
-      url: candidate.url,
+      url,
       status: res.status,
       bodyPreview: res.body.slice(0, 1000),
       timestamp: new Date().toISOString(),
@@ -124,8 +162,8 @@ async function generateBybit() {
     }
   }
 
-  fs.writeFileSync('feed-bybit.xml', buildRss('Bybit Announcements (fetch failed)', 'https://announcements.bybit.com/en/', 'Bybit API fetch failed, see debug-bybit.json', []));
-  console.log('[Bybit] fetch failed, see debug-bybit.json');
+  fs.writeFileSync('feed-bybit.xml', buildRss('Bybit Announcements (fetch failed)', 'https://announcements.bybit.com/en/', 'Bybit API blocked by CloudFront geo restriction. Deploy the Cloudflare Worker in bybit-worker.js and set BYBIT_WORKER_URL.', []));
+  console.log('[Bybit] fetch failed, deploy Cloudflare Worker');
 }
 
 async function generateOKX() {
@@ -188,62 +226,168 @@ async function generateHotcoin() {
   console.log(`[Hotcoin] ${items.length} items`);
 }
 
-async function generateGate() {
-  const candidates = [
-    { url: 'https://www.gate.com/zh/announcements/activity', origin: 'https://www.gate.com' },
-    { url: 'https://www.gate.io/zh/announcements/activity', origin: 'https://www.gate.io' },
-    { url: 'https://www.gate.com/zh/announcements', origin: 'https://www.gate.com' },
-  ];
+async function fetchWithPlaywrightFallback(urls, parseFn, debugPath, feedPath, feedMeta) {
+  // 先尝试普通 HTTP
   const debug = [];
-
-  for (const candidate of candidates) {
-    let res;
+  for (const candidate of urls) {
     try {
-      res = await httpGet(candidate.url, {
-        followRedirects: true,
-        maxRedirects: 3,
-        headers: {
-          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-          'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-          'Referer': candidate.origin + '/',
-          'Origin': candidate.origin,
-          'Sec-Fetch-Dest': 'document',
-          'Sec-Fetch-Mode': 'navigate',
-          'Sec-Fetch-Site': 'same-origin',
-          'Upgrade-Insecure-Requests': '1',
-        },
-      });
+      const res = await httpGet(candidate.url, candidate.opts || {});
+      debug.push({ url: candidate.url, status: res.status, bodyLength: res.body.length, bodyPreview: res.body.slice(0, 300) });
+      if (res.status === 200 && res.body.length > 5000) {
+        const items = parseFn(res.body, candidate.url);
+        if (items.length > 0) {
+          fs.writeFileSync(feedPath, buildRss(feedMeta.title, candidate.url, feedMeta.description, items));
+          console.log(`[${feedMeta.name}] ${items.length} items via HTTP`);
+          return;
+        }
+      }
     } catch (e) {
       debug.push({ url: candidate.url, error: e.message });
-      continue;
-    }
-
-    debug.push({ url: candidate.url, status: res.status, bodyLength: res.body.length, bodyPreview: res.body.slice(0, 500) });
-    if (res.status !== 200 || res.body.length < 5000) continue;
-
-    // Gate 文章链接通常是 /zh/announcements/article/xxx 或 /article/xxx
-    const items = [];
-    const regex = /<a[^>]+href=["']([^"']*(?:\/announcements\/article|articlelist)[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi;
-    let m;
-    while ((m = regex.exec(res.body)) && items.length < 20) {
-      const href = m[1];
-      const title = m[2].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-      if (title.length > 8) {
-        const link = href.startsWith('http') ? href : (href.startsWith('/') ? candidate.origin + href : candidate.origin + '/' + href);
-        items.push({ title, link, pubDate: new Date().toUTCString() });
-      }
-    }
-
-    if (items.length > 0) {
-      fs.writeFileSync('feed-gate.xml', buildRss('Gate.io Announcements', candidate.url, 'Gate.io Latest Announcements', items));
-      console.log(`[Gate] ${items.length} items`);
-      return;
     }
   }
 
-  fs.writeFileSync('debug-gate.json', JSON.stringify({ debug, timestamp: new Date().toISOString() }, null, 2));
-  fs.writeFileSync('feed-gate.xml', buildRss('Gate.io Announcements (fetch failed - needs Playwright)', 'https://www.gate.com/zh/announcements/activity', 'Gate.io blocked automated access. If empty after 2-3 runs, enable Playwright in workflow.', []));
-  console.log('[Gate] fetch failed, see debug-gate.json');
+  // 普通请求失败，尝试 Playwright
+  for (const candidate of urls) {
+    try {
+      const html = await playwrightFetch(candidate.url, candidate.playwrightOpts || {});
+      const items = parseFn(html, candidate.url);
+      if (items.length > 0) {
+        fs.writeFileSync(feedPath, buildRss(feedMeta.title, candidate.url, feedMeta.description, items));
+        console.log(`[${feedMeta.name}] ${items.length} items via Playwright`);
+        return;
+      }
+    } catch (e) {
+      debug.push({ url: candidate.url, playwrightError: e.message });
+    }
+  }
+
+  fs.writeFileSync(debugPath, JSON.stringify({ debug, timestamp: new Date().toISOString() }, null, 2));
+  fs.writeFileSync(feedPath, buildRss(`${feedMeta.title} (fetch failed)`, urls[0].url, `${feedMeta.description}. Needs Playwright or proxy.`, []));
+  console.log(`[${feedMeta.name}] fetch failed, see ${debugPath}`);
+}
+
+function parseGateHtml(html, baseUrl) {
+  const origin = baseUrl.startsWith('https://www.gate.io') ? 'https://www.gate.io' : 'https://www.gate.com';
+  const items = [];
+  const regex = /<a[^>]+href=["']([^"']*(?:\/announcements\/article|articlelist)[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  let m;
+  while ((m = regex.exec(html)) && items.length < 20) {
+    const href = m[1];
+    const title = m[2].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    if (title.length > 8) {
+      const link = href.startsWith('http') ? href : (href.startsWith('/') ? origin + href : origin + '/' + href);
+      items.push({ title, link, pubDate: new Date().toUTCString() });
+    }
+  }
+  return items;
+}
+
+async function generateGate() {
+  await fetchWithPlaywrightFallback(
+    [
+      { url: 'https://www.gate.com/zh/announcements/activity' },
+      { url: 'https://www.gate.io/zh/announcements/activity' },
+      { url: 'https://www.gate.com/zh/announcements' },
+    ],
+    parseGateHtml,
+    'debug-gate.json',
+    'feed-gate.xml',
+    { name: 'Gate', title: 'Gate.io Announcements', description: 'Gate.io Latest Announcements' }
+  );
+}
+
+function parseMexcHtml(html, baseUrl) {
+  const items = [];
+  const seen = new Set();
+  const origin = 'https://www.mexc.com';
+
+  // 策略 1：从页面内嵌 JSON（Next.js / Nuxt / 自定义）提取公告列表
+  const jsonCandidates = [
+    /window\.__INITIAL_STATE__\s*=\s*({[\s\S]*?});?\s*<\/script>/i,
+    /window\.__DATA__\s*=\s*({[\s\S]*?});?\s*<\/script>/i,
+    /<script[^>]*id=["']__NEXT_DATA__["'][^>]*>([\s\S]*?)<\/script>/i,
+    /<script[^>]*>\s*({[\s\S]*?"announcements"[\s\S]*?})\s*<\/script>/i,
+  ];
+  for (const pattern of jsonCandidates) {
+    const match = html.match(pattern);
+    if (match) {
+      try {
+        const data = JSON.parse(match[1]);
+        const list = findArrayByKey(data, ['announcements', 'articleList', 'list', 'items', 'data']);
+        if (list && list.length) {
+          for (const a of list) {
+            const title = a.title || a.subject || a.name;
+            const href = a.link || a.url || a.slug || a.id;
+            if (title && href && !seen.has(href)) {
+              seen.add(href);
+              const link = href.startsWith('http') ? href : (href.startsWith('/') ? origin + href : `${origin}/announcements/${href}`);
+              items.push({ title, link, pubDate: new Date(a.publishTime || a.createTime || a.date || Date.now()).toUTCString() });
+            }
+            if (items.length >= 30) break;
+          }
+          if (items.length > 0) return items;
+        }
+      } catch (e) {
+        // ignore parse errors
+      }
+    }
+  }
+
+  // 策略 2：匹配 a[href*="/announcements/"] 及其附近文本
+  const regex = /<a[^>]+href=["']([^"']*\/announcements\/[^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  let m;
+  while ((m = regex.exec(html)) && items.length < 30) {
+    const href = m[1];
+    const title = m[2].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    if (title.length > 5 && !seen.has(href)) {
+      seen.add(href);
+      const link = href.startsWith('http') ? href : origin + href;
+      items.push({ title, link, pubDate: new Date().toUTCString() });
+    }
+  }
+
+  // 策略 3：匹配列表项结构
+  if (items.length === 0) {
+    const regex2 = /<(?:article|div|li)[^>]*>[\s\S]*?<h[\d][^>]*>([\s\S]*?)<\/h[\d]>[\s\S]*?<a[^>]+href=["']([^"']+)["'][^>]*>[\s\S]*?<\/(?:article|div|li)>/gi;
+    while ((m = regex2.exec(html)) && items.length < 30) {
+      const title = m[1].replace(/<[^>]+>/g, '').trim();
+      const href = m[2];
+      if (title.length > 5 && !seen.has(href)) {
+        seen.add(href);
+        const link = href.startsWith('http') ? href : origin + href;
+        items.push({ title, link, pubDate: new Date().toUTCString() });
+      }
+    }
+  }
+
+  return items;
+}
+
+// 在嵌套对象中按候选 key 找数组
+function findArrayByKey(obj, keys) {
+  if (!obj || typeof obj !== 'object') return null;
+  for (const key of keys) {
+    if (Array.isArray(obj[key]) && obj[key].length) return obj[key];
+  }
+  for (const k of Object.keys(obj)) {
+    const found = findArrayByKey(obj[k], keys);
+    if (found) return found;
+  }
+  return null;
+}
+
+async function generateMexc() {
+  await fetchWithPlaywrightFallback(
+    [
+      { url: 'https://www.mexc.com/announcements/all' },
+      { url: 'https://www.mexc.com/announcements/new-listings' },
+      { url: 'https://www.mexc.com/support/sections/360000030611-Announcements' },
+    ],
+    parseMexcHtml,
+    'debug-mexc.json',
+    'feed-mexc.xml',
+    { name: 'MEXC', title: 'MEXC Announcements', description: 'MEXC Latest Announcements' }
+  );
 }
 
 (async () => {
@@ -253,6 +397,7 @@ async function generateGate() {
     generateOKX,
     generateHotcoin,
     generateGate,
+    generateMexc,
   ];
   for (const task of tasks) {
     try {
