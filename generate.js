@@ -379,14 +379,14 @@ function findArrayByKey(obj, keys) {
 async function generateMexc() {
   await fetchWithPlaywrightFallback(
     [
-      { url: 'https://www.mexc.com/announcements/all' },
-      { url: 'https://www.mexc.com/announcements/new-listings' },
-      { url: 'https://www.mexc.com/support/sections/360000030611-Announcements' },
+      { url: 'https://www.mexc.com/zh-TW/announcements/latest-events' },
+      { url: 'https://www.mexc.com/announcements/latest-events
+第三条' },
     ],
     parseMexcHtml,
     'debug-mexc.json',
     'feed-mexc.xml',
-    { name: 'MEXC', title: 'MEXC Announcements', description: 'MEXC Latest Announcements' }
+    { name: 'MEXC', title: 'MEXC 最新活动', description: 'MEXC Latest Event' }
   );
 }
 
