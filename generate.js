@@ -99,71 +99,19 @@ async function generateBinance() {
 }
 
 async function generateBybit() {
-  // 优先使用 Cloudflare Worker 反代（绕过 GitHub Actions 美国 IP 被 CloudFront geo block 的问题）
-  const workerUrl = process.env.BYBIT_WORKER_URL;
-  if (workerUrl) {
-    try {
-      const res = await httpGet(workerUrl);
-      if (res.status === 200 && res.body.includes('<item>')) {
-        fs.writeFileSync('feed-bybit.xml', res.body);
-        console.log('[Bybit] fetched from worker');
-        return;
-      }
-    } catch (e) {
-      console.error('[Bybit] worker fetch failed:', e.message);
-    }
-  }
-
-  // 本地/Actions 直接请求（大概率会失败，仅作兜底）
-  const candidates = [
-    'https://api.bybit.com/v5/announcements/index?locale=en-US&limit=20',
-    'https://api.bybit.com/v5/announcements/index?locale=zh-CN&limit=20',
-  ];
-
-  for (const url of candidates) {
-    let res;
-    try {
-      res = await httpGet(url, {
-        headers: {
-          'Accept': 'application/json, text/plain, */*',
-          'Origin': 'https://www.bybit.com',
-          'Referer': 'https://www.bybit.com/',
-        },
-      });
-    } catch (e) {
-      fs.writeFileSync('debug-bybit.json', JSON.stringify({ url, error: e.message, timestamp: new Date().toISOString() }, null, 2));
-      continue;
-    }
-
-    fs.writeFileSync('debug-bybit.json', JSON.stringify({
-      url,
-      status: res.status,
-      bodyPreview: res.body.slice(0, 1000),
-      timestamp: new Date().toISOString(),
-    }, null, 2));
-
-    if (res.status !== 200 || !res.body.trim().startsWith('{')) continue;
-
-    try {
-      const json = JSON.parse(res.body);
-      const list = json.result?.list || [];
-      if (!list.length) continue;
-
-      const items = list.map(a => ({
-        title: a.title,
-        link: a.url,
-        pubDate: new Date(a.dateTimestamp || a.publishTime).toUTCString(),
-      }));
-      fs.writeFileSync('feed-bybit.xml', buildRss('Bybit Announcements', 'https://announcements.bybit.com/en/', 'Bybit Latest Announcements', items));
-      console.log(`[Bybit] ${items.length} items`);
+  try {
+    const res = await httpGet('https://bybit-rss.siri-f5e.workers.dev/');
+    if (res.status === 200 && res.body.includes('<item>')) {
+      fs.writeFileSync('feed-bybit.xml', res.body);
+      console.log('[Bybit] OK from worker');
       return;
-    } catch (e) {
-      console.error('[Bybit] parse error:', e.message);
     }
+    console.log('[Bybit] worker returned no items, status:', res.status);
+  } catch (e) {
+    console.error('[Bybit] worker fetch failed:', e.message);
   }
-
-  fs.writeFileSync('feed-bybit.xml', buildRss('Bybit Announcements (fetch failed)', 'https://announcements.bybit.com/en/', 'Bybit API blocked by CloudFront geo restriction. Deploy the Cloudflare Worker in bybit-worker.js and set BYBIT_WORKER_URL.', []));
-  console.log('[Bybit] fetch failed, deploy Cloudflare Worker');
+  fs.writeFileSync('feed-bybit.xml', buildRss('Bybit Announcements', 'https://announcements.bybit.global/zh-MY/?category=latest_activities&page=1', 'Bybit Latest Activities', []));
+  console.log('[Bybit] fetch failed');
 }
 
 async function generateOKX() {
@@ -171,7 +119,6 @@ async function generateOKX() {
   const res = await httpGet(url);
   const html = res.body;
 
-  // 从 SSR 的 appState JSON 中提取公告列表
   const match = html.match(/<script[^>]*id="appState"[^>]*>([\s\S]*?)<\/script>/i);
   if (!match) throw new Error('OKX appState not found');
   const data = JSON.parse(match[1]);
@@ -191,7 +138,6 @@ async function generateHotcoin() {
   const res = await httpGet(url);
   const html = res.body;
 
-  // 直接解析 HTML 中的 .textList 区块
   const items = [];
   const regex = /<div[^>]*textList[^>]*>[\s\S]*?<a[^>]+href=["']([^"']+)["'][^>]*>[\s\S]*?<span>([\s\S]*?)<\/span>[\s\S]*?<\/a>[\s\S]*?<div[^>]*>([\d]{4}-[\d]{2}-[\d]{2})<\/div>[\s\S]*?<\/div>/gi;
   let m;
@@ -207,7 +153,6 @@ async function generateHotcoin() {
     });
   }
 
-  // 如果 HTML 解析失败，尝试内嵌 JSON
   if (items.length === 0) {
     const jsonMatch = html.match(/catalogList:(\[[\s\S]*?\]),/);
     if (jsonMatch) {
@@ -227,7 +172,6 @@ async function generateHotcoin() {
 }
 
 async function fetchWithPlaywrightFallback(urls, parseFn, debugPath, feedPath, feedMeta) {
-  // 先尝试普通 HTTP
   const debug = [];
   for (const candidate of urls) {
     try {
@@ -246,7 +190,6 @@ async function fetchWithPlaywrightFallback(urls, parseFn, debugPath, feedPath, f
     }
   }
 
-  // 普通请求失败，尝试 Playwright
   for (const candidate of urls) {
     try {
       const html = await playwrightFetch(candidate.url, candidate.playwrightOpts || {});
@@ -296,96 +239,20 @@ async function generateGate() {
   );
 }
 
-function parseMexcHtml(html, baseUrl) {
-  const items = [];
-  const seen = new Set();
-  const origin = 'https://www.mexc.com';
-
-  // 策略 1：从页面内嵌 JSON（Next.js / Nuxt / 自定义）提取公告列表
-  const jsonCandidates = [
-    /window\.__INITIAL_STATE__\s*=\s*({[\s\S]*?});?\s*<\/script>/i,
-    /window\.__DATA__\s*=\s*({[\s\S]*?});?\s*<\/script>/i,
-    /<script[^>]*id=["']__NEXT_DATA__["'][^>]*>([\s\S]*?)<\/script>/i,
-    /<script[^>]*>\s*({[\s\S]*?"announcements"[\s\S]*?})\s*<\/script>/i,
-  ];
-  for (const pattern of jsonCandidates) {
-    const match = html.match(pattern);
-    if (match) {
-      try {
-        const data = JSON.parse(match[1]);
-        const list = findArrayByKey(data, ['announcements', 'articleList', 'list', 'items', 'data']);
-        if (list && list.length) {
-          for (const a of list) {
-            const title = a.title || a.subject || a.name;
-            const href = a.link || a.url || a.slug || a.id;
-            if (title && href && !seen.has(href)) {
-              seen.add(href);
-              const link = href.startsWith('http') ? href : (href.startsWith('/') ? origin + href : `${origin}/announcements/${href}`);
-              items.push({ title, link, pubDate: new Date(a.publishTime || a.createTime || a.date || Date.now()).toUTCString() });
-            }
-            if (items.length >= 30) break;
-          }
-          if (items.length > 0) return items;
-        }
-      } catch (e) {
-        // ignore parse errors
-      }
-    }
-  }
-
-  // 策略 2：匹配 a[href*="/announcements/"] 及其附近文本
-  const regex = /<a[^>]+href=["']([^"']*\/announcements\/[^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
-  let m;
-  while ((m = regex.exec(html)) && items.length < 30) {
-    const href = m[1];
-    const title = m[2].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-    if (title.length > 5 && !seen.has(href)) {
-      seen.add(href);
-      const link = href.startsWith('http') ? href : origin + href;
-      items.push({ title, link, pubDate: new Date().toUTCString() });
-    }
-  }
-
-  // 策略 3：匹配列表项结构
-  if (items.length === 0) {
-    const regex2 = /<(?:article|div|li)[^>]*>[\s\S]*?<h[\d][^>]*>([\s\S]*?)<\/h[\d]>[\s\S]*?<a[^>]+href=["']([^"']+)["'][^>]*>[\s\S]*?<\/(?:article|div|li)>/gi;
-    while ((m = regex2.exec(html)) && items.length < 30) {
-      const title = m[1].replace(/<[^>]+>/g, '').trim();
-      const href = m[2];
-      if (title.length > 5 && !seen.has(href)) {
-        seen.add(href);
-        const link = href.startsWith('http') ? href : origin + href;
-        items.push({ title, link, pubDate: new Date().toUTCString() });
-      }
-    }
-  }
-
-  return items;
-}
-
-// 在嵌套对象中按候选 key 找数组
-function findArrayByKey(obj, keys) {
-  if (!obj || typeof obj !== 'object') return null;
-  for (const key of keys) {
-    if (Array.isArray(obj[key]) && obj[key].length) return obj[key];
-  }
-  for (const k of Object.keys(obj)) {
-    const found = findArrayByKey(obj[k], keys);
-    if (found) return found;
-  }
-  return null;
-}
-
 async function generateMexc() {
-  await fetchWithPlaywrightFallback(
-    [
-      { url: 'https://www.mexc.com/zh-TW/announcements/latest-events/ongoing' },
-    ],
-    parseMexcHtml,
-    'debug-mexc.json',
-    'feed-mexc.xml',
-    { name: 'MEXC', title: 'MEXC 最新活动', description: 'MEXC Latest Event' }
-  );
+  try {
+    const res = await httpGet('https://bybit-rss.siri-f5e.workers.dev/mexc');
+    if (res.status === 200 && res.body.includes('<item>')) {
+      fs.writeFileSync('feed-mexc.xml', res.body);
+      console.log('[MEXC] OK from worker');
+      return;
+    }
+    console.log('[MEXC] worker returned no items, status:', res.status);
+  } catch (e) {
+    console.error('[MEXC] worker fetch failed:', e.message);
+  }
+  fs.writeFileSync('feed-mexc.xml', buildRss('MEXC 最新活动', 'https://www.mexc.com/zh-TW/announcements/latest-events/ongoing', 'MEXC Latest Events', []));
+  console.log('[MEXC] fetch failed');
 }
 
 (async () => {
