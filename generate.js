@@ -380,8 +380,6 @@ async function generateMexc() {
   await fetchWithPlaywrightFallback(
     [
       { url: 'https://www.mexc.com/zh-TW/announcements/latest-events' },
-      { url: 'https://www.mexc.com/announcements/latest-events
-第三条' },
     ],
     parseMexcHtml,
     'debug-mexc.json',
