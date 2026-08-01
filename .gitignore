@@ -1,0 +1,6 @@
+node_modules/
+*.log
+debug-*.json
+feed-*.xml
+.env
+.DS_Store

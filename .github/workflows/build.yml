@@ -18,7 +18,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - name: Install Playwright
+        run: |
+          npm install playwright
+          npx playwright install chromium
       - name: Generate feeds
+        env:
+          BYBIT_WORKER_URL: ${{ secrets.BYBIT_WORKER_URL }}
         run: node generate.js
       - name: Commit feeds
         run: |
