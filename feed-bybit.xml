@@ -4,7 +4,7 @@
     <title>Bybit Announcements (fetch failed)</title>
     <link>https://announcements.bybit.com/en/</link>
     <description>Bybit API blocked by CloudFront geo restriction. Deploy the Cloudflare Worker in bybit-worker.js and set BYBIT_WORKER_URL.</description>
-    <lastBuildDate>Sat, 01 Aug 2026 17:29:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 17:49:57 GMT</lastBuildDate>
 
   </channel>
 </rss>
