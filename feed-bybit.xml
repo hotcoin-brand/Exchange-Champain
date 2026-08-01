@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Bybit Announcements (fetch failed)</title>
-    <link>https://announcements.bybit.com/en/</link>
-    <description>Bybit API blocked by CloudFront geo restriction. Deploy the Cloudflare Worker in bybit-worker.js and set BYBIT_WORKER_URL.</description>
-    <lastBuildDate>Sat, 01 Aug 2026 17:49:57 GMT</lastBuildDate>
+    <title>Bybit Announcements</title>
+    <link>https://announcements.bybit.global/zh-MY/?category=latest_activities&page=1</link>
+    <description>Bybit Latest Activities</description>
+    <lastBuildDate>Sat, 01 Aug 2026 18:44:38 GMT</lastBuildDate>
 
   </channel>
 </rss>

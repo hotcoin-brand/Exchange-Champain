@@ -3,49 +3,8 @@
   <channel>
     <title>MEXC 最新活动</title>
     <link>https://www.mexc.com/zh-TW/announcements/latest-events/ongoing</link>
-    <description>MEXC Latest Event</description>
-    <lastBuildDate>Sat, 01 Aug 2026 17:50:02 GMT</lastBuildDate>
-    <item>
-      <title>Alpha Trader</title>
-      <link>https://www.mexc.com/zh-TW/announcements/alpha-trader</link>
-      <guid isPermaLink="true">https://www.mexc.com/zh-TW/announcements/alpha-trader</guid>
-      <pubDate>Sat, 01 Aug 2026 17:50:02 GMT</pubDate>
-      <description>Alpha Trader</description>
-    </item>
-    <item>
-      <title>MEXC 新聞</title>
-      <link>https://www.mexc.com/zh-TW/announcements/mexc-news</link>
-      <guid isPermaLink="true">https://www.mexc.com/zh-TW/announcements/mexc-news</guid>
-      <pubDate>Sat, 01 Aug 2026 17:50:02 GMT</pubDate>
-      <description>MEXC 新聞</description>
-    </item>
-    <item>
-      <title>MEXC 精選</title>
-      <link>https://www.mexc.com/zh-TW/announcements/mexc-digest</link>
-      <guid isPermaLink="true">https://www.mexc.com/zh-TW/announcements/mexc-digest</guid>
-      <pubDate>Sat, 01 Aug 2026 17:50:02 GMT</pubDate>
-      <description>MEXC 精選</description>
-    </item>
-    <item>
-      <title>API 更新</title>
-      <link>https://www.mexc.com/zh-TW/announcements/api-updates</link>
-      <guid isPermaLink="true">https://www.mexc.com/zh-TW/announcements/api-updates</guid>
-      <pubDate>Sat, 01 Aug 2026 17:50:02 GMT</pubDate>
-      <description>API 更新</description>
-    </item>
-    <item>
-      <title>交易規則更新</title>
-      <link>https://www.mexc.com/zh-TW/announcements/trading-updates</link>
-      <guid isPermaLink="true">https://www.mexc.com/zh-TW/announcements/trading-updates</guid>
-      <pubDate>Sat, 01 Aug 2026 17:50:02 GMT</pubDate>
-      <description>交易規則更新</description>
-    </item>
-    <item>
-      <title>幫助與常見問題</title>
-      <link>https://www.mexc.com/zh-TW/announcements/help-faq</link>
-      <guid isPermaLink="true">https://www.mexc.com/zh-TW/announcements/help-faq</guid>
-      <pubDate>Sat, 01 Aug 2026 17:50:02 GMT</pubDate>
-      <description>幫助與常見問題</description>
-    </item>
+    <description>MEXC Latest Events</description>
+    <lastBuildDate>Sat, 01 Aug 2026 18:44:45 GMT</lastBuildDate>
+
   </channel>
 </rss>
