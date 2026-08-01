@@ -2,28 +2,34 @@
   "debug": [
     {
       "url": "https://www.gate.com/zh/announcements/activity",
-      "error": "read ECONNRESET"
+      "status": 403,
+      "bodyLength": 399,
+      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;com&#47;zh&#47;announcements&#47;activity\" on this server.<P>\nReference&#32;&#35;18&#46;5552d117&#46;1785594977&#46;5aa96f15\n<P>https&#58;&#47;&#4"
     },
     {
       "url": "https://www.gate.io/zh/announcements/activity",
-      "error": "connect ETIMEDOUT 69.171.227.37:443"
+      "status": 403,
+      "bodyLength": 398,
+      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;io&#47;zh&#47;announcements&#47;activity\" on this server.<P>\nReference&#32;&#35;18&#46;92aa3817&#46;1785594977&#46;293b815d\n<P>https&#58;&#47;&#47"
     },
     {
       "url": "https://www.gate.com/zh/announcements",
-      "error": "read ECONNRESET"
+      "status": 403,
+      "bodyLength": 386,
+      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;com&#47;zh&#47;announcements\" on this server.<P>\nReference&#32;&#35;18&#46;5552d117&#46;1785594978&#46;5aa97069\n<P>https&#58;&#47;&#47;errors&#46;"
     },
     {
       "url": "https://www.gate.com/zh/announcements/activity",
-      "playwrightError": "browserType.launch: Executable doesn't exist at C:\\Users\\M\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+      "playwrightError": "playwright not installed"
     },
     {
       "url": "https://www.gate.io/zh/announcements/activity",
-      "playwrightError": "browserType.launch: Executable doesn't exist at C:\\Users\\M\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+      "playwrightError": "playwright not installed"
     },
     {
       "url": "https://www.gate.com/zh/announcements",
-      "playwrightError": "browserType.launch: Executable doesn't exist at C:\\Users\\M\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+      "playwrightError": "playwright not installed"
     }
   ],
-  "timestamp": "2026-08-01T12:54:40.746Z"
+  "timestamp": "2026-08-01T14:36:18.085Z"
 }
