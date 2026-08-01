@@ -379,7 +379,7 @@ function findArrayByKey(obj, keys) {
 async function generateMexc() {
   await fetchWithPlaywrightFallback(
     [
-      { url: 'https://www.mexc.com/zh-TW/announcements/latest-events' },
+      { url: 'https://www.mexc.com/zh-TW/announcements/latest-events/ongoing' },
     ],
     parseMexcHtml,
     'debug-mexc.json',
