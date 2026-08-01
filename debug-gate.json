@@ -3,21 +3,21 @@
     {
       "url": "https://www.gate.com/zh/announcements/activity",
       "status": 403,
-      "bodyLength": 393,
-      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;com&#47;zh&#47;announcements&#47;activity\" on this server.<P>\nReference&#32;&#35;18&#46;80a3d17&#46;1785563422&#46;df8696\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;80a3d17&#46;1785563422&#46;df8696</P>\n</BODY>\n</HTML>\n"
+      "bodyLength": 399,
+      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;com&#47;zh&#47;announcements&#47;activity\" on this server.<P>\nReference&#32;&#35;18&#46;a60f3417&#46;1785572691&#46;2eba3430\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;a60f3417&#46;1785572691&#46;2eba3430</P>\n</BODY>\n</HTML>\n"
     },
     {
       "url": "https://www.gate.io/zh/announcements/activity",
       "status": 403,
       "bodyLength": 398,
-      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;io&#47;zh&#47;announcements&#47;activity\" on this server.<P>\nReference&#32;&#35;18&#46;adf6d517&#46;1785563422&#46;50c65333\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;adf6d517&#46;1785563422&#46;50c65333</P>\n</BODY>\n</HTML>\n"
+      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;io&#47;zh&#47;announcements&#47;activity\" on this server.<P>\nReference&#32;&#35;18&#46;a90f3417&#46;1785572691&#46;f2844cfd\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;a90f3417&#46;1785572691&#46;f2844cfd</P>\n</BODY>\n</HTML>\n"
     },
     {
       "url": "https://www.gate.com/zh/announcements",
       "status": 403,
-      "bodyLength": 380,
-      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;com&#47;zh&#47;announcements\" on this server.<P>\nReference&#32;&#35;18&#46;80a3d17&#46;1785563422&#46;df86ab\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;80a3d17&#46;1785563422&#46;df86ab</P>\n</BODY>\n</HTML>\n"
+      "bodyLength": 386,
+      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;com&#47;zh&#47;announcements\" on this server.<P>\nReference&#32;&#35;18&#46;a60f3417&#46;1785572691&#46;2eba36df\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;a60f3417&#46;1785572691&#46;2eba36df</P>\n</BODY>\n</HTML>\n"
     }
   ],
-  "timestamp": "2026-08-01T05:50:22.427Z"
+  "timestamp": "2026-08-01T08:24:51.517Z"
 }
