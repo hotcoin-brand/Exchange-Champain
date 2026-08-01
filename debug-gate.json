@@ -4,20 +4,20 @@
       "url": "https://www.gate.com/zh/announcements/activity",
       "status": 403,
       "bodyLength": 399,
-      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;com&#47;zh&#47;announcements&#47;activity\" on this server.<P>\nReference&#32;&#35;18&#46;e2352f17&#46;1785600717&#46;10053006\n<P>https&#58;&#47;&#4"
+      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;com&#47;zh&#47;announcements&#47;activity\" on this server.<P>\nReference&#32;&#35;18&#46;aff6d517&#46;1785602626&#46;482d6691\n<P>https&#58;&#47;&#4"
     },
     {
       "url": "https://www.gate.io/zh/announcements/activity",
       "status": 403,
       "bodyLength": 398,
-      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;io&#47;zh&#47;announcements&#47;activity\" on this server.<P>\nReference&#32;&#35;18&#46;ed352f17&#46;1785600717&#46;10486376\n<P>https&#58;&#47;&#47"
+      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;io&#47;zh&#47;announcements&#47;activity\" on this server.<P>\nReference&#32;&#35;18&#46;adf6d517&#46;1785602626&#46;54a79d0c\n<P>https&#58;&#47;&#47"
     },
     {
       "url": "https://www.gate.com/zh/announcements",
       "status": 403,
       "bodyLength": 386,
-      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;com&#47;zh&#47;announcements\" on this server.<P>\nReference&#32;&#35;18&#46;e2352f17&#46;1785600717&#46;10053046\n<P>https&#58;&#47;&#47;errors&#46;"
+      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;com&#47;zh&#47;announcements\" on this server.<P>\nReference&#32;&#35;18&#46;aff6d517&#46;1785602626&#46;482d6772\n<P>https&#58;&#47;&#47;errors&#46;"
     }
   ],
-  "timestamp": "2026-08-01T16:11:59.931Z"
+  "timestamp": "2026-08-01T16:43:49.004Z"
 }
