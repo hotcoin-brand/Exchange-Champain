@@ -3,6 +3,7 @@ node_modules/
 debug-*.json
 debug-*.html
 feed-*.xml
+feed.xml
 discover.js
 .env
 .DS_Store
