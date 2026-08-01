@@ -2,8 +2,8 @@ name: Build RSS
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
-  workflow_dispatch:
+    - cron: '0 */2 * * *'    # 每 2 小时跑一次
+  workflow_dispatch:          # 支持手动触发
   push:
     branches: [main]
 
@@ -20,12 +20,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Generate feed
+      - name: Discover HTML structures
+        run: node discover.js
+      - name: Generate feeds
         run: node generate.js
-      - name: Commit feed
+      - name: Commit feeds
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add feed.xml
-          git diff --staged --quiet || git commit -m "update feed"
+          git add -A
+          git diff --staged --quiet || git commit -m "update feeds"
           git push
