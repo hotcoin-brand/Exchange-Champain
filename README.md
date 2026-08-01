@@ -30,7 +30,7 @@
 - 回仓库主页，会多出 `feed-*.xml` 文件
 
 ### 5. 拿到 RSS 链接
-分别点每个 `feed-*.xml` → 右上角 `Raw` → 复制地址栏 URL，长这样：
+分别点每个 `feed-*.xml` → 右上角 **`Raw`** → 复制地址栏 URL，长这样：
 ```
 https://raw.githubusercontent.com/你的用户名/仓库名/main/feed-binance.xml
 https://raw.githubusercontent.com/你的用户名/仓库名/main/feed-bybit.xml
@@ -39,8 +39,10 @@ https://raw.githubusercontent.com/你的用户名/仓库名/main/feed-hotcoin.xm
 https://raw.githubusercontent.com/你的用户名/仓库名/main/feed-gate.xml
 ```
 
+**注意**：Feedly 里一定要粘贴 `raw.githubusercontent.com` 开头的链接，不要贴 `github.com/.../blob/...` 页面地址，否则 Feedly 会显示 "Build RSS feed" 而不是直接订阅。
+
 ### 6. 加进 Feedly
-Feedly → Add Content → Follow sources → 分别粘贴上述链接 → Follow。
+Feedly → Add Content → Follow sources → 分别粘贴上述 Raw 链接 → Follow。
 
 建议按平台建不同 Folder，比如 `Competitors / Activities`。
 
