@@ -3,33 +3,21 @@
     {
       "url": "https://www.gate.com/zh/announcements/activity",
       "status": 403,
-      "bodyLength": 399,
-      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;com&#47;zh&#47;announcements&#47;activity\" on this server.<P>\nReference&#32;&#35;18&#46;1aa33017&#46;1785596575&#46;73f070a1\n<P>https&#58;&#47;&#4"
+      "bodyLength": 397,
+      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;com&#47;zh&#47;announcements&#47;activity\" on this server.<P>\nReference&#32;&#35;18&#46;1cc1c917&#46;1785598894&#46;c7dedb3\n<P>https&#58;&#47;&#47"
     },
     {
       "url": "https://www.gate.io/zh/announcements/activity",
       "status": 403,
       "bodyLength": 398,
-      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;io&#47;zh&#47;announcements&#47;activity\" on this server.<P>\nReference&#32;&#35;18&#46;8faa3817&#46;1785596575&#46;2beaa660\n<P>https&#58;&#47;&#47"
+      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;io&#47;zh&#47;announcements&#47;activity\" on this server.<P>\nReference&#32;&#35;18&#46;52c1c917&#46;1785598894&#46;120129eb\n<P>https&#58;&#47;&#47"
     },
     {
       "url": "https://www.gate.com/zh/announcements",
       "status": 403,
-      "bodyLength": 386,
-      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;com&#47;zh&#47;announcements\" on this server.<P>\nReference&#32;&#35;18&#46;1aa33017&#46;1785596575&#46;73f0712c\n<P>https&#58;&#47;&#47;errors&#46;"
-    },
-    {
-      "url": "https://www.gate.com/zh/announcements/activity",
-      "playwrightError": "playwright not installed"
-    },
-    {
-      "url": "https://www.gate.io/zh/announcements/activity",
-      "playwrightError": "playwright not installed"
-    },
-    {
-      "url": "https://www.gate.com/zh/announcements",
-      "playwrightError": "playwright not installed"
+      "bodyLength": 384,
+      "bodyPreview": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;gate&#46;com&#47;zh&#47;announcements\" on this server.<P>\nReference&#32;&#35;18&#46;1cc1c917&#46;1785598894&#46;c7dee25\n<P>https&#58;&#47;&#47;errors&#46;e"
     }
   ],
-  "timestamp": "2026-08-01T15:02:55.403Z"
+  "timestamp": "2026-08-01T15:41:38.075Z"
 }
