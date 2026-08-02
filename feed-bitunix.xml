@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Bitunix 活動公告</title>
-    <link>https://support.bitunix.com/hc/zh-tw/sections/13762039477017</link>
-    <description>Bitunix Activity Announcements</description>
-    <lastBuildDate>Sun, 02 Aug 2026 13:45:03 GMT</lastBuildDate>
+    <title>Bitunix</title>
+    <link>https://support.bitunix.com</link>
+    <description>Bitunix Activity</description>
+    <lastBuildDate>Sun, 02 Aug 2026 16:00:55 GMT</lastBuildDate>
 
   </channel>
 </rss>
