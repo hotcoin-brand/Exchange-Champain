@@ -4,7 +4,7 @@
     <title>Bybit</title>
     <link>https://announcements.bybit.global/</link>
     <description>Bybit All Categories</description>
-    <lastBuildDate>Mon, 03 Aug 2026 10:00:56 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 11:00:54 GMT</lastBuildDate>
     <item>
       <title>Token Buzz: Trade CXMT. Win your share of up to $100,000.</title>
       <link>https://announcements.bybit.com/en-US/article/token-buzz-trade-cxmt-win-your-share-of-up-to-100-000--artc1abdcfbee96/</link>
@@ -363,6 +363,13 @@
       <description>[maintenance_updates] Notice of Suspension for Zircuit (ZRC) Network Deposit and Withdrawal (Aug 04, 2026)</description>
     </item>
     <item>
+      <title>[Important] UTA Loans collateral ratios increased</title>
+      <link>https://announcements.bybit.com/en-US/article/important-uta-loans-collateral-ratios-increased--artd6362ca4c9b5/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/important-uta-loans-collateral-ratios-increased--artd6362ca4c9b5/</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description>[maintenance_updates] [Important] UTA Loans collateral ratios increased</description>
+    </item>
+    <item>
       <title>Save up to 14%: Short-dated Options fee discount extended</title>
       <link>https://announcements.bybit.com/en-US/article/save-up-to-14-short-dated-options-fee-discount-extended--art5341969cb97e/</link>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/save-up-to-14-short-dated-options-fee-discount-extended--art5341969cb97e/</guid>
@@ -417,13 +424,6 @@
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/risk-limit-adjustment-for-selected-perpetual-contracts-jul-27-2026--artdf817aa29ba7/</guid>
       <pubDate>Mon, 27 Jul 2026 11:42:15 GMT</pubDate>
       <description>[maintenance_updates] Risk Limit Adjustment for Selected Perpetual Contracts(Jul 27, 2026)</description>
-    </item>
-    <item>
-      <title>Bybit P2P to Update Maker Fee Structure for TJS Buy &amp; Sell Ads</title>
-      <link>https://announcements.bybit.com/en-US/article/bybit-p2p-to-update-maker-fee-structure-for-tjs-buy-sell-ads--arta644f0cfbeec/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-p2p-to-update-maker-fee-structure-for-tjs-buy-sell-ads--arta644f0cfbeec/</guid>
-      <pubDate>Mon, 27 Jul 2026 10:00:00 GMT</pubDate>
-      <description>[maintenance_updates] Bybit P2P to Update Maker Fee Structure for TJS Buy &amp; Sell Ads</description>
     </item>
   </channel>
 </rss>
