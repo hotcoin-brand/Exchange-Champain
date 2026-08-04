@@ -4,7 +4,17 @@
     <title>Crypto.com</title>
     <link>https://crypto.com/exchange/announcements</link>
     <description>Crypto.com Exchange</description>
-    <lastBuildDate>Tue, 04 Aug 2026 07:00:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 08:00:55 GMT</lastBuildDate>
+    <item>
+      <title>Delisting of HFT From the Crypto.com Exchange (Advanced Trading Platform)</title>
+      <link>https://crypto.com/exchange/announcements/6a71901cd77a2a53fd0a2ccd</link>
+      <guid isPermaLink="true">https://crypto.com/exchange/announcements/6a71901cd77a2a53fd0a2ccd</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description>[delist] &lt;p dir=&quot;ltr&quot;&gt;Please be informed that Hashflow (HFT) will be delisted on the Crypto.com Exchange (Advanced Trading Platform) on &lt;strong&gt;August 7, 2026 (‘Effective Date’), 03:00 UTC&lt;/strong&gt;. As a result, the following services will be impacted on the Effective Date:&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;Spot Trading and Trading Bots&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;Open HFT Spot orders will be closed, and active trading bots will be automatically terminated after the Effective Date.&amp;nbsp;&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;</description>
+    </item>
     <item>
       <title>Delisting of HFTUSD-PERP Perpetual Contract</title>
       <link>https://crypto.com/exchange/announcements/6a718a7a953aece4e289aea7</link>
@@ -298,15 +308,6 @@
       <description>[product] &lt;p dir=&quot;ltr&quot;&gt;The Myro (MYRO) contract swap on the Solana network has been completed for Crypto.com Exchange/Advanced Trading Platform users. Users can continue to trade MYRO on Exchange/Advanced Trading Platform.&amp;nbsp;&lt;/p&gt;
 &lt;p dir=&quot;ltr&quot;&gt;If you have questions or concerns, please contact us at &lt;a href=&quot;http://chat.crypto.com&quot;&gt;chat.crypto.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong id=&quot;docs-internal-guid-7fcb8ea3-7fff-bf5a-381e-06eea6288d68&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Crypto.com Exchange Supports the Moonbeam (GLMR) and Moonriver (MOVR) Chain Migration</title>
-      <link>https://crypto.com/exchange/announcements/6a5f30f8d77a2a53fd0a1a7e</link>
-      <guid isPermaLink="true">https://crypto.com/exchange/announcements/6a5f30f8d77a2a53fd0a1a7e</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
-      <description>[product] &lt;p dir=&quot;ltr&quot;&gt;Please be informed that Crypto.com is supporting the Moonbeam (GLMR) and Moonriver (MOVR) chain migration. Deposits and withdrawals of GLMR and MOVR on the Crypto.com Exchange will remain available until &lt;strong&gt;July 23, 2026, 02:00 UTC&lt;/strong&gt;.&amp;nbsp;&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;Trading of token(s) is not affected. GLMR and MOVR tokens will be migrated to the Base network in a 1:1 ratio.&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;You may incur a &lt;a href=&quot;https://help.crypto.com/en/articles/5434936-missing-cr</description>
     </item>
   </channel>
 </rss>
