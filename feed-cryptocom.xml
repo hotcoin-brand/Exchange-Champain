@@ -4,7 +4,15 @@
     <title>Crypto.com</title>
     <link>https://crypto.com/exchange/announcements</link>
     <description>Crypto.com Exchange</description>
-    <lastBuildDate>Tue, 04 Aug 2026 05:00:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 07:00:55 GMT</lastBuildDate>
+    <item>
+      <title>Delisting of HFTUSD-PERP Perpetual Contract</title>
+      <link>https://crypto.com/exchange/announcements/6a718a7a953aece4e289aea7</link>
+      <guid isPermaLink="true">https://crypto.com/exchange/announcements/6a718a7a953aece4e289aea7</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description>[delist] &lt;p dir=&quot;ltr&quot;&gt;Please be informed that the HFTUSD-PERP Perpetual contract will be delisted from the Crypto.com Exchange/Advanced Trading Platform on &lt;strong&gt;August 6, 2026 (‘Effective Date’), 08:00 UTC&lt;/strong&gt;.&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Please review your open positions immediately and take any necessary action before the Effective Date&lt;/strong&gt;&lt;/span&gt;. Any remaining open positions after this date will be automatically settled using Time-Weighted </description>
+    </item>
     <item>
       <title>The Helium Mobile (MOBILE) token swap to Helium (HNT) Is Complete</title>
       <link>https://crypto.com/exchange/announcements/6a70534a953aece4e289ad2a</link>
@@ -299,21 +307,6 @@
       <description>[product] &lt;p dir=&quot;ltr&quot;&gt;Please be informed that Crypto.com is supporting the Moonbeam (GLMR) and Moonriver (MOVR) chain migration. Deposits and withdrawals of GLMR and MOVR on the Crypto.com Exchange will remain available until &lt;strong&gt;July 23, 2026, 02:00 UTC&lt;/strong&gt;.&amp;nbsp;&lt;/p&gt;
 &lt;p dir=&quot;ltr&quot;&gt;Trading of token(s) is not affected. GLMR and MOVR tokens will be migrated to the Base network in a 1:1 ratio.&lt;/p&gt;
 &lt;p dir=&quot;ltr&quot;&gt;You may incur a &lt;a href=&quot;https://help.crypto.com/en/articles/5434936-missing-cr</description>
-    </item>
-    <item>
-      <title>Delisting of GRT Staking on the Crypto.com Exchange (Advanced Trading Platform)</title>
-      <link>https://crypto.com/exchange/announcements/6a5daa88953aece4e2899ccc</link>
-      <guid isPermaLink="true">https://crypto.com/exchange/announcements/6a5daa88953aece4e2899ccc</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
-      <description>[delist] &lt;p dir=&quot;ltr&quot;&gt;Please be informed that the Crypto.com Exchange has suspended &lt;strong&gt;The Graph (GRT)&lt;/strong&gt; as of &lt;strong&gt;July 20, 2026 (‘Effective Date’).&lt;/strong&gt;&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;As a result, the following services will be impacted:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;
-&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;GRT staking has been disabled on Effective Date&lt;/p&gt;
-&lt;/li&gt;
-&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;
-&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;GRT staking rewards will be fully distributed on July 27&lt;/p&gt;
-&lt;</description>
     </item>
   </channel>
 </rss>
