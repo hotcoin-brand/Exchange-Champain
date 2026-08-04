@@ -4,7 +4,7 @@
     <title>Bybit</title>
     <link>https://announcements.bybit.global/</link>
     <description>Bybit All Categories</description>
-    <lastBuildDate>Tue, 04 Aug 2026 11:00:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 14:00:55 GMT</lastBuildDate>
     <item>
       <title>Token Buzz: Trade CXMT. Win your share of up to $100,000.</title>
       <link>https://announcements.bybit.com/en-US/article/token-buzz-trade-cxmt-win-your-share-of-up-to-100-000--artc1abdcfbee96/</link>
@@ -370,6 +370,13 @@
       <description>[maintenance_updates] Bybit to Support SEIEVM (Sei) v6.6.0 Network Upgrade</description>
     </item>
     <item>
+      <title>Important notice: Tiered margin adjustment for oil on TradFi CFD</title>
+      <link>https://announcements.bybit.com/en-US/article/important-notice-tiered-margin-adjustment-for-oil-on-tradfi-cfd--art0fef89976523/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/important-notice-tiered-margin-adjustment-for-oil-on-tradfi-cfd--art0fef89976523/</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description>[maintenance_updates] Important notice: Tiered margin adjustment for oil on TradFi CFD</description>
+    </item>
+    <item>
       <title>Notice of Suspension for Zircuit (ZRC) Network Deposit and Withdrawal (Aug 04, 2026)</title>
       <link>https://announcements.bybit.com/en-US/article/notice-of-suspension-for-zircuit-zrc-network-deposit-and-withdrawal-aug-04-2026--art71b213fc6378/</link>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/notice-of-suspension-for-zircuit-zrc-network-deposit-and-withdrawal-aug-04-2026--art71b213fc6378/</guid>
@@ -417,13 +424,6 @@
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-polygon-pol-v0-10-0-network-upgrade--art33e7f5533e01/</guid>
       <pubDate>Tue, 28 Jul 2026 15:38:23 GMT</pubDate>
       <description>[maintenance_updates] Bybit to Support Polygon (POL) v0.10.0 Network Upgrade</description>
-    </item>
-    <item>
-      <title>Bybit to Support Injective (INJ) v1.20.3 Network Upgrade</title>
-      <link>https://announcements.bybit.com/en-US/article/bybit-to-support-injective-inj-v1-20-3-network-upgrade--artc7cba233ea1f/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-injective-inj-v1-20-3-network-upgrade--artc7cba233ea1f/</guid>
-      <pubDate>Tue, 28 Jul 2026 15:23:33 GMT</pubDate>
-      <description>[maintenance_updates] Bybit to Support Injective (INJ) v1.20.3 Network Upgrade</description>
     </item>
   </channel>
 </rss>
