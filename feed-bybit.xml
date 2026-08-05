@@ -4,7 +4,7 @@
     <title>Bybit</title>
     <link>https://announcements.bybit.global/</link>
     <description>Bybit All Categories</description>
-    <lastBuildDate>Wed, 05 Aug 2026 10:00:41 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 11:01:25 GMT</lastBuildDate>
     <item>
       <title>Token Buzz: Trade UNITREE. Win your share of up to a $100,000 prize pool.</title>
       <link>https://announcements.bybit.com/en-US/article/token-buzz-trade-unitree-win-your-share-of-up-to-a-100-000-prize-pool--art1f741e335572/</link>
@@ -62,6 +62,13 @@
       <description>[latest_activities] TradeMasters Grand Prix S1: Bybit Stockholm Open 2026 Edition</description>
     </item>
     <item>
+      <title>Changes to Funding Rate Intervals for SSPCUSDT Perpetual Contracts</title>
+      <link>https://announcements.bybit.com/en-US/article/changes-to-funding-rate-intervals-for-sspcusdt-perpetual-contracts--artc1c36a830194/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/changes-to-funding-rate-intervals-for-sspcusdt-perpetual-contracts--artc1c36a830194/</guid>
+      <pubDate>Wed, 05 Aug 2026 10:58:41 GMT</pubDate>
+      <description>[latest_activities] Starting Aug 5, 2026, 11:10AM UTC, Bybit will adjust the funding rate intervals for SSPCUSDT Perpetual Contracts.</description>
+    </item>
+    <item>
       <title>Discontinuation of Community (KOL Insights) Section on Bybit Learn</title>
       <link>https://announcements.bybit.com/en-US/article/discontinuation-of-community-kol-insights-section-on-bybit-learn--artb02a998ba41a/</link>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/discontinuation-of-community-kol-insights-section-on-bybit-learn--artb02a998ba41a/</guid>
@@ -69,11 +76,32 @@
       <description>[latest_activities] Discontinuation of Community (KOL Insights) Section on Bybit Learn</description>
     </item>
     <item>
-      <title>MENA Monthly Draw: Deposit &amp; trade to share 40,000 USDT this August</title>
-      <link>https://announcements.bybit.com/en-US/article/mena-monthly-draw-deposit-trade-to-share-40-000-usdt-this-august--art318f9f82dc8e/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/mena-monthly-draw-deposit-trade-to-share-40-000-usdt-this-august--art318f9f82dc8e/</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description>[latest_activities] MENA Monthly Draw: Deposit &amp; trade to share 40,000 USDT this August</description>
+      <title>New listing: VRTXSTOCKUSDT Perpetual Contract, with up to 25x leverage</title>
+      <link>https://announcements.bybit.com/en-US/article/new-listing-vrtxstockusdt-perpetual-contract-with-up-to-25x-leverage--arte722cb56e533/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/new-listing-vrtxstockusdt-perpetual-contract-with-up-to-25x-leverage--arte722cb56e533/</guid>
+      <pubDate>Wed, 05 Aug 2026 10:16:07 GMT</pubDate>
+      <description>[new_crypto] Bybit has listed the VRTXSTOCKUSDT Perpetual Contract. Trading is now open with up to 25x leverage.</description>
+    </item>
+    <item>
+      <title>New listing: BIIBUSDT Perpetual Contract, with up to 25x leverage</title>
+      <link>https://announcements.bybit.com/en-US/article/new-listing-biibusdt-perpetual-contract-with-up-to-25x-leverage--artdacdedd78db0/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/new-listing-biibusdt-perpetual-contract-with-up-to-25x-leverage--artdacdedd78db0/</guid>
+      <pubDate>Wed, 05 Aug 2026 10:15:02 GMT</pubDate>
+      <description>[new_crypto] Bybit has listed the BIIBUSDT Perpetual Contract. Trading is now open with up to 25x leverage.</description>
+    </item>
+    <item>
+      <title>New listing: SHOPUSDT Perpetual Contract, with up to 25x leverage</title>
+      <link>https://announcements.bybit.com/en-US/article/new-listing-shopusdt-perpetual-contract-with-up-to-25x-leverage--art0cf9485e8c43/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/new-listing-shopusdt-perpetual-contract-with-up-to-25x-leverage--art0cf9485e8c43/</guid>
+      <pubDate>Wed, 05 Aug 2026 10:14:15 GMT</pubDate>
+      <description>[new_crypto] Bybit has listed the SHOPUSDT Perpetual Contract. Trading is now open with up to 25x leverage.</description>
+    </item>
+    <item>
+      <title>New listing: CASHCATUSDT Perpetual Contract in Innovation Zone, with up to 10x leverage</title>
+      <link>https://announcements.bybit.com/en-US/article/new-listing-cashcatusdt-perpetual-contract-in-innovation-zone-with-up-to-10x-leverage--art88df6bbd86fd/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/new-listing-cashcatusdt-perpetual-contract-in-innovation-zone-with-up-to-10x-leverage--art88df6bbd86fd/</guid>
+      <pubDate>Wed, 05 Aug 2026 10:13:38 GMT</pubDate>
+      <description>[new_crypto] New listing: CASHCATUSDT Perpetual Contract in Innovation Zone, with up to 10x leverage</description>
     </item>
     <item>
       <title>New listing: CLSKUSDT Perpetual Contract, with up to 25x leverage</title>
@@ -116,104 +144,6 @@
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/new-listing-spotusdt-perpetual-contract-with-up-to-25x-leverage--artae93c6a47c8b/</guid>
       <pubDate>Mon, 03 Aug 2026 09:11:05 GMT</pubDate>
       <description>[new_crypto] Bybit has listed the SPOTUSDT Perpetual Contract. Trading is now open with up to 25x leverage.</description>
-    </item>
-    <item>
-      <title>Listing of UNITREEUSDT on Bybit Perpetual Pre-Market on Aug 3, 2026, 3:00AM UTC</title>
-      <link>https://announcements.bybit.com/en-US/article/listing-of-unitreeusdt-on-bybit-perpetual-pre-market-on-aug-3-2026-3-00am-utc--art9fbc4da358f5/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/listing-of-unitreeusdt-on-bybit-perpetual-pre-market-on-aug-3-2026-3-00am-utc--art9fbc4da358f5/</guid>
-      <pubDate>Mon, 03 Aug 2026 01:53:43 GMT</pubDate>
-      <description>[new_crypto] We are thrilled to announce that UNITREEUSDT will be listed for Perpetual Contract Pre-Market Trading on Bybit. </description>
-    </item>
-    <item>
-      <title>New listing: GRVTUSDT Perpetual Contract in Innovation Zone, with up to 20x leverage</title>
-      <link>https://announcements.bybit.com/en-US/article/new-listing-grvtusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--artf2cb238a8a78/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/new-listing-grvtusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--artf2cb238a8a78/</guid>
-      <pubDate>Fri, 31 Jul 2026 12:16:42 GMT</pubDate>
-      <description>[new_crypto] New listing: GRVTUSDT Perpetual Contract in Innovation Zone, with up to 20x leverage</description>
-    </item>
-    <item>
-      <title>New listing: REGNUSDT Perpetual Contract, with up to 20x leverage</title>
-      <link>https://announcements.bybit.com/en-US/article/new-listing-regnusdt-perpetual-contract-with-up-to-20x-leverage--artc03559565e4e/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/new-listing-regnusdt-perpetual-contract-with-up-to-20x-leverage--artc03559565e4e/</guid>
-      <pubDate>Fri, 31 Jul 2026 09:52:08 GMT</pubDate>
-      <description>[new_crypto] Bybit has listed the REGNUSDT Perpetual Contract. Trading is now open with up to 20x leverage.</description>
-    </item>
-    <item>
-      <title>New listing: AMGNUSDT Perpetual Contract, with up to 25x leverage</title>
-      <link>https://announcements.bybit.com/en-US/article/new-listing-amgnusdt-perpetual-contract-with-up-to-25x-leverage--artabbb3cd73d75/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/new-listing-amgnusdt-perpetual-contract-with-up-to-25x-leverage--artabbb3cd73d75/</guid>
-      <pubDate>Fri, 31 Jul 2026 09:51:04 GMT</pubDate>
-      <description>[new_crypto] Bybit has listed the AMGNUSDT Perpetual Contract. Trading is now open with up to 25x leverage.</description>
-    </item>
-    <item>
-      <title>Bybit Savings: APR Adjustment for USDT and BTC</title>
-      <link>https://announcements.bybit.com/en-US/article/bybit-savings-apr-adjustment-for-usdt-and-btc-blt043ebcd6619896ea/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-savings-apr-adjustment-for-usdt-and-btc-blt043ebcd6619896ea/</guid>
-      <pubDate>Wed, 01 Nov 2023 06:43:49 GMT</pubDate>
-      <description>[product_updates] Bybit Savings: APR Adjustment for USDT and BTC</description>
-    </item>
-    <item>
-      <title>Wealth Management Updates: Enjoy a 7-Day Plan With 4% for VIPs and 3.5% for Regular Users</title>
-      <link>https://announcements.bybit.com/en-US/article/wealth-management-updates-enjoy-a-7-day-plan-with-4-for-vips-and-3-5-for-regular-users-bltdfdf34a67a78a339/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/wealth-management-updates-enjoy-a-7-day-plan-with-4-for-vips-and-3-5-for-regular-users-bltdfdf34a67a78a339/</guid>
-      <pubDate>Fri, 27 Oct 2023 10:00:00 GMT</pubDate>
-      <description>[product_updates] We're thrilled to announce a few updates to the Bybit Wealth Management Fund Pool.</description>
-    </item>
-    <item>
-      <title>Inaccurate GAS Dao Asset Value Display  on Oct 23, 2023 at 12:38PM UTC</title>
-      <link>https://announcements.bybit.com/en-US/article/inaccurate-gas-asset-value-display-on-oct-23-2023-at-12-38pm-utc-bltf4c57f1d82fc0882/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/inaccurate-gas-asset-value-display-on-oct-23-2023-at-12-38pm-utc-bltf4c57f1d82fc0882/</guid>
-      <pubDate>Mon, 23 Oct 2023 12:39:30 GMT</pubDate>
-      <description>[product_updates] On Oct. 23, 2023 at 12:38PM UTC , we are experiencing service disruptions on our platform,  leading to the display of inaccurate GAS Dao asset values. </description>
-    </item>
-    <item>
-      <title>Copy Trading: Unified Trading Account Now Supported for Master Traders</title>
-      <link>https://announcements.bybit.com/en-US/article/copy-trading-unified-trading-account-now-supported-for-master-traders-bltbc8c3c116677f34b/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/copy-trading-unified-trading-account-now-supported-for-master-traders-bltbc8c3c116677f34b/</guid>
-      <pubDate>Mon, 23 Oct 2023 10:11:00 GMT</pubDate>
-      <description>[product_updates] We're thrilled to announce that the Unified Trading Account (UTA) now supports Copy Trading for Master Traders. </description>
-    </item>
-    <item>
-      <title>Introducing TradeGPT Master Trader: Copy AI-Driven Strategies to Boost Your Profits</title>
-      <link>https://announcements.bybit.com/en-US/article/introducing-tradegpt-master-trader-copy-ai-driven-strategies-to-boost-your-profits-blte6305f3d4e82fd9d/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/introducing-tradegpt-master-trader-copy-ai-driven-strategies-to-boost-your-profits-blte6305f3d4e82fd9d/</guid>
-      <pubDate>Mon, 23 Oct 2023 10:00:00 GMT</pubDate>
-      <description>[product_updates] We're thrilled to unveil TradeGPT Master Trader on Copy Trading, our latest game-changing trading tool that grants you unprecedented access to AI-powered strategies. </description>
-    </item>
-    <item>
-      <title>Changes To Tick Size for USDT  Perpetual Contracts</title>
-      <link>https://announcements.bybit.com/en-US/article/changes-to-tick-size-for-usdt-perpetual-contracts-blt40e511d72dcd279f/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/changes-to-tick-size-for-usdt-perpetual-contracts-blt40e511d72dcd279f/</guid>
-      <pubDate>Fri, 20 Oct 2023 14:46:42 GMT</pubDate>
-      <description>[product_updates] Changes To Tick Size for USDT Perpetual Contracts</description>
-    </item>
-    <item>
-      <title>🔥 New ORBSUSDT Contract</title>
-      <link>https://announcements.bybit.com/en-US/article/-new-orbsusdt-contract-blt7ec9dcf2f73696be/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/-new-orbsusdt-contract-blt7ec9dcf2f73696be/</guid>
-      <pubDate>Fri, 13 Oct 2023 09:28:11 GMT</pubDate>
-      <description>[product_updates] 🔥 New ORBSUSDT Contract</description>
-    </item>
-    <item>
-      <title>Introducing Master Trader Compare</title>
-      <link>https://announcements.bybit.com/en-US/article/introducing-master-trader-compare-blteea038a42d7d796d/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/introducing-master-trader-compare-blteea038a42d7d796d/</guid>
-      <pubDate>Fri, 13 Oct 2023 06:38:35 GMT</pubDate>
-      <description>[product_updates] We're thrilled to introduce the Master Trader Compare fuction on Copy Trading, a tool designed to help you make more informed decisions when it comes to choosing a Master Trader to follow. </description>
-    </item>
-    <item>
-      <title>Trade &amp; Win With Bybit Power Tools: Enjoy Trading Fee Rebates!</title>
-      <link>https://announcements.bybit.com/en-US/article/trade-win-with-bybit-power-tools-enjoy-trading-fee-rebates--blt3ed2058738c57e00/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/trade-win-with-bybit-power-tools-enjoy-trading-fee-rebates--blt3ed2058738c57e00/</guid>
-      <pubDate>Fri, 13 Oct 2023 02:57:28 GMT</pubDate>
-      <description>[product_updates] Trade &amp; Win With Bybit Power Tools: Enjoy Trading Fee Rebates!</description>
-    </item>
-    <item>
-      <title>Dual Asset 2.0: MNT Now Supported! 💥</title>
-      <link>https://announcements.bybit.com/en-US/article/dual-asset-2-0-mnt-now-supported--bltdea262bfde790944/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/dual-asset-2-0-mnt-now-supported--bltdea262bfde790944/</guid>
-      <pubDate>Thu, 12 Oct 2023 03:44:34 GMT</pubDate>
-      <description>[product_updates] Dual Asset 2.0: MNT Now Supported! 💥 </description>
     </item>
     <item>
       <title>Change Tick Size for USDT Perpetual Contract Aug 11, 2026</title>
@@ -286,6 +216,13 @@
       <description>[latest_bybit_news] Major upgrade for BTC Options</description>
     </item>
     <item>
+      <title>Spot Token Delisting Notice</title>
+      <link>https://announcements.bybit.com/en-US/article/spot-token-delisting-notice--artb21444d650ba/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/spot-token-delisting-notice--artb21444d650ba/</guid>
+      <pubDate>Wed, 05 Aug 2026 10:20:12 GMT</pubDate>
+      <description>[delistings] Bybit is committed to maintaining a secure and reliable trading environment for our community. </description>
+    </item>
+    <item>
       <title>Bybit Alpha: Notice of removal of 2 tokens — Jul 29, 2026, 8:00AM UTC</title>
       <link>https://announcements.bybit.com/en-US/article/bybit-alpha-notice-of-removal-of-2-tokens-jul-29-2026-8-00am-utc--artf31c79e03ee7/</link>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-alpha-notice-of-removal-of-2-tokens-jul-29-2026-8-00am-utc--artf31c79e03ee7/</guid>
@@ -347,13 +284,6 @@
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/delisting-9-spot-trading-pairs-on-2026-07-24-08-00-00-utc--arta680afe9cefb/</guid>
       <pubDate>Fri, 17 Jul 2026 11:02:32 GMT</pubDate>
       <description>[delistings] In line with the Bybit Token Management Rules and to safeguard our users' interests, Bybit conducts regular reviews of all listed Spot trading pairs to maintain a secure and reliable trading environment.</description>
-    </item>
-    <item>
-      <title>Delisting of HIGHUSDT Perpetual Contract</title>
-      <link>https://announcements.bybit.com/en-US/article/delisting-of-highusdt-perpetual-contract--artfcf38598faa8/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/delisting-of-highusdt-perpetual-contract--artfcf38598faa8/</guid>
-      <pubDate>Fri, 17 Jul 2026 08:58:31 GMT</pubDate>
-      <description>[delistings] Bybit will be delisting the HIGHUSDT Perpetual Contract at Jul 20, 2026, 9:00AM UTC.</description>
     </item>
     <item>
       <title>Bybit to Support Berachain (BERA) v1.4.4 Network Upgrade</title>
