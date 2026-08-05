@@ -4,7 +4,21 @@
     <title>KuCoin</title>
     <link>https://www.kucoin.com/announcements</link>
     <description>KuCoin All Categories</description>
-    <lastBuildDate>Wed, 05 Aug 2026 02:00:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 03:00:56 GMT</lastBuildDate>
+    <item>
+      <title>KuCoin Isolated Margin Adds the Grvt (GRVT) Trading Pair</title>
+      <link>https://www.kucoin.com/announcement//kucoin-margin-adds-260804</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//kucoin-margin-adds-260804</guid>
+      <pubDate>Wed, 05 Aug 2026 02:46:00 GMT</pubDate>
+      <description>[latest-announcements] To enrich the variety of assets available, KuCoin’s Isolated Margin Trading has added the Grvt (GRVT) asset and trading pair.  </description>
+    </item>
+    <item>
+      <title>KuCoin Will Adjust the Tick Size for Certain Spot Trading Pairs</title>
+      <link>https://www.kucoin.com/announcement//en-kucoin-will-adjust-the-tick-size-for-certain-spot-trading-pairs-20260804</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-will-adjust-the-tick-size-for-certain-spot-trading-pairs-20260804</guid>
+      <pubDate>Wed, 05 Aug 2026 02:46:00 GMT</pubDate>
+      <description>[latest-announcements] In order to increase market liquidity and improve trading experience, KuCoin will be adjusting the tick size (i.e., the minimum change in the unit price) of the following spot trading pairs at 06:00 on August 5, 2026 (UTC).</description>
+    </item>
     <item>
       <title>KuCoin Futures Will Delist the HFTUSDT, VICUSDT &amp; VANRYUSDT Perpetual Contracts (2026-08-07)</title>
       <link>https://www.kucoin.com/announcement//en-kucoin-futures-will-delist-the-hftusdt-vicusdt-vanryusdt-perpetual-contracts-2026-08-07</link>
@@ -66,14 +80,7 @@
       <link>https://www.kucoin.com/announcement//en-kucoin-futures-new-listing-2u2usdt-perpetual-contract-with-up-to-10x-leverage</link>
       <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-futures-new-listing-2u2usdt-perpetual-contract-with-up-to-10x-leverage</guid>
       <pubDate>Mon, 03 Aug 2026 02:28:00 GMT</pubDate>
-      <description>[latest-announcements] KuCoin Futures New Listing: 2U2USDT Perpetual Contract with Up to 10x Leverage</description>
-    </item>
-    <item>
-      <title>Notice on Temporary Maintenance of SEPA Deposit Service</title>
-      <link>https://www.kucoin.com/announcement//en-Notice-on-Temporary-Maintenance-of-SEPA-Deposit-Service-0801</link>
-      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-Notice-on-Temporary-Maintenance-of-SEPA-Deposit-Service-0801</guid>
-      <pubDate>Sat, 01 Aug 2026 04:49:00 GMT</pubDate>
-      <description>[latest-announcements] We would like to inform you that the SEPA deposit service is currently undergoing maintenance.</description>
+      <description>[new-listings] KuCoin Futures New Listing: 2U2USDT Perpetual Contract with Up to 10x Leverage</description>
     </item>
     <item>
       <title>KuCoin Futures Will List INTWUSDT Stock Index Perpetual Contract (2026-07-31)</title>
