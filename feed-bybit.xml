@@ -4,7 +4,7 @@
     <title>Bybit</title>
     <link>https://announcements.bybit.global/</link>
     <description>Bybit All Categories</description>
-    <lastBuildDate>Thu, 06 Aug 2026 03:00:40 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 04:00:40 GMT</lastBuildDate>
     <item>
       <title>Token Buzz: Trade UNITREE. Win your share of up to a $100,000 prize pool.</title>
       <link>https://announcements.bybit.com/en-US/article/token-buzz-trade-unitree-win-your-share-of-up-to-a-100-000-prize-pool--art1f741e335572/</link>
@@ -356,6 +356,20 @@
       <description>[delistings] In line with the Bybit Token Management Rules and to safeguard our users' interests, Bybit conducts regular reviews of all listed Spot trading pairs to maintain a secure and reliable trading environment.</description>
     </item>
     <item>
+      <title>Bybit to Support SOMNIA (SOMI) Network Upgrade (Aug 06, 2026)</title>
+      <link>https://announcements.bybit.com/en-US/article/bybit-to-support-somnia-somi-network-upgrade-aug-06-2026--art1308421a3a5d/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-somnia-somi-network-upgrade-aug-06-2026--art1308421a3a5d/</guid>
+      <pubDate>Thu, 06 Aug 2026 11:14:32 GMT</pubDate>
+      <description>[maintenance_updates] Bybit to Support SOMNIA (SOMI) Network Upgrade (Aug 06, 2026)</description>
+    </item>
+    <item>
+      <title>Risk limit adjustment for selected Perpetual Contracts PUNDIXUSDT,ARCUSDT...(Aug 7, 2026)</title>
+      <link>https://announcements.bybit.com/en-US/article/risk-limit-adjustment-for-selected-perpetual-contracts-pundixusdt-arcusdt-aug-7-2026--art3d3234c3c9fa/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/risk-limit-adjustment-for-selected-perpetual-contracts-pundixusdt-arcusdt-aug-7-2026--art3d3234c3c9fa/</guid>
+      <pubDate>Thu, 06 Aug 2026 03:04:18 GMT</pubDate>
+      <description>[maintenance_updates] Risk limit adjustment for selected Perpetual Contracts PUNDIXUSDT,ARCUSDT...(Aug 7, 2026)</description>
+    </item>
+    <item>
       <title>Bybit to Support Berachain (BERA) v1.4.4 Network Upgrade</title>
       <link>https://announcements.bybit.com/en-US/article/bybit-to-support-berachain-bera-v1-4-4-network-upgrade--art96096bc57047/</link>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-berachain-bera-v1-4-4-network-upgrade--art96096bc57047/</guid>
@@ -410,20 +424,6 @@
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/save-up-to-14-short-dated-options-fee-discount-extended--art5341969cb97e/</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
       <description>[maintenance_updates] Options fee discount in Aug</description>
-    </item>
-    <item>
-      <title>Changes of Max Open Interest for SOXLUSDT,DRAMUSDT... Perpetual Contract (Aug 1, 2026)</title>
-      <link>https://announcements.bybit.com/en-US/article/changes-of-max-open-interest-for-soxlusdt-dramusdt-perpetual-contract-aug-1-2026--artcee89f0e4b81/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/changes-of-max-open-interest-for-soxlusdt-dramusdt-perpetual-contract-aug-1-2026--artcee89f0e4b81/</guid>
-      <pubDate>Fri, 31 Jul 2026 07:12:02 GMT</pubDate>
-      <description>[maintenance_updates] Changes of Max Open Interest for SOXLUSDT,DRAMUSDT... Perpetual Contract</description>
-    </item>
-    <item>
-      <title>6 xStocks assets added as collateral for Margin Trading, Crypto Loans, and Institutional Loans</title>
-      <link>https://announcements.bybit.com/en-US/article/6-xstocks-assets-added-as-collateral-for-margin-trading-crypto-loans-and-institutional-loans--art2f3f46ec44cd/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/6-xstocks-assets-added-as-collateral-for-margin-trading-crypto-loans-and-institutional-loans--art2f3f46ec44cd/</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>[maintenance_updates] 6 xStocks assets added as collateral for Margin Trading, Crypto Loans, and Institutional Loans</description>
     </item>
   </channel>
 </rss>
