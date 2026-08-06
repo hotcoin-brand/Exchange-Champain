@@ -4,7 +4,7 @@
     <title>Bybit</title>
     <link>https://announcements.bybit.global/</link>
     <description>Bybit All Categories</description>
-    <lastBuildDate>Thu, 06 Aug 2026 07:00:42 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 08:00:44 GMT</lastBuildDate>
     <item>
       <title>Token Buzz: Trade UNITREE. Win your share of up to a $100,000 prize pool.</title>
       <link>https://announcements.bybit.com/en-US/article/token-buzz-trade-unitree-win-your-share-of-up-to-a-100-000-prize-pool--art1f741e335572/</link>
@@ -370,6 +370,13 @@
       <description>[maintenance_updates] Risk limit adjustment for selected Perpetual Contracts PUNDIXUSDT,ARCUSDT...(Aug 7, 2026)</description>
     </item>
     <item>
+      <title>UTA Loans expands interest-free borrowing to 22 more assets</title>
+      <link>https://announcements.bybit.com/en-US/article/uta-loans-expands-interest-free-borrowing-to-22-more-assets--artc99cdbe5836d/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/uta-loans-expands-interest-free-borrowing-to-22-more-assets--artc99cdbe5836d/</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <description>[maintenance_updates] UTA Loans expands interest-free borrowing to 22 more assets</description>
+    </item>
+    <item>
       <title>Bybit to Support Berachain (BERA) v1.4.4 Network Upgrade</title>
       <link>https://announcements.bybit.com/en-US/article/bybit-to-support-berachain-bera-v1-4-4-network-upgrade--art96096bc57047/</link>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-berachain-bera-v1-4-4-network-upgrade--art96096bc57047/</guid>
@@ -417,13 +424,6 @@
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/important-uta-loans-collateral-ratios-increased--artd6362ca4c9b5/</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
       <description>[maintenance_updates] [Important] UTA Loans collateral ratios increased</description>
-    </item>
-    <item>
-      <title>Save up to 14%: Short-dated Options fee discount extended</title>
-      <link>https://announcements.bybit.com/en-US/article/save-up-to-14-short-dated-options-fee-discount-extended--art5341969cb97e/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/save-up-to-14-short-dated-options-fee-discount-extended--art5341969cb97e/</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-      <description>[maintenance_updates] Options fee discount in Aug</description>
     </item>
   </channel>
 </rss>
