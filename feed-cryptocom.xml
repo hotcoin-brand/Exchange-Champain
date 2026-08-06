@@ -4,7 +4,26 @@
     <title>Crypto.com</title>
     <link>https://crypto.com/exchange/announcements</link>
     <description>Crypto.com Exchange</description>
-    <lastBuildDate>Thu, 06 Aug 2026 03:00:39 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 07:00:41 GMT</lastBuildDate>
+    <item>
+      <title>Trading Pause for Selected Spot Pairs and Perpetual Contracts on the Crypto.com Exchange - Price and Quantity Tick Sizes Update</title>
+      <link>https://crypto.com/exchange/announcements/6a742ffb953aece4e289b1cb</link>
+      <guid isPermaLink="true">https://crypto.com/exchange/announcements/6a742ffb953aece4e289b1cb</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <description>[product] &lt;p dir=&quot;ltr&quot;&gt;As part of our ongoing efforts to improve your trading experience on the Crypto.com Exchange, we will be updating the minimum Price and Quantity Tick Sizes for the following Spot pairs and Perpetual Contracts:&lt;/p&gt;
+&lt;div dir=&quot;ltr&quot; align=&quot;center&quot;&gt;
+&lt;table&gt;&lt;colgroup&gt;&lt;col width=&quot;192&quot;&gt;&lt;col width=&quot;259&quot;&gt;&lt;col width=&quot;259&quot;&gt;&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th scope=&quot;col&quot;&gt;
+&lt;p dir=&quot;ltr&quot;&gt;Instrument&lt;/p&gt;
+&lt;/th&gt;
+&lt;th scope=&quot;col&quot;&gt;
+&lt;p dir=&quot;ltr&quot;&gt;Quantity Change&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;(units)&lt;/p&gt;
+&lt;/th&gt;
+&lt;th sco</description>
+    </item>
     <item>
       <title>Selected Spot Pairs delisted From the Crypto.com Exchange (Advanced Trading Platform)</title>
       <link>https://crypto.com/exchange/announcements/6a72c25e953aece4e289b0df</link>
@@ -302,18 +321,6 @@
       <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
       <description>[delist] &lt;p dir=&quot;ltr&quot;&gt;Please be informed that the MOVEUSD-PERP Perpetual contract will be delisted from the Crypto.com Exchange/Advanced Trading Platform on &lt;strong&gt;July 22, 2026 (‘Effective Date’), 08:00 UTC&lt;/strong&gt;.&lt;/p&gt;
 &lt;p dir=&quot;ltr&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Please review your open positions immediately and take any necessary action before the Effective Date&lt;/strong&gt;&lt;/span&gt;. Any remaining open positions after this date will be automatically settled using Time-Weighted </description>
-    </item>
-    <item>
-      <title>Now live in the Derivatives Exchange: CASHCATUSD Perpetual Contract</title>
-      <link>https://crypto.com/exchange/announcements/6a602914953aece4e2899ea8</link>
-      <guid isPermaLink="true">https://crypto.com/exchange/announcements/6a602914953aece4e2899ea8</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-      <description>[list] &lt;p dir=&quot;ltr&quot;&gt;Now live in the Derivatives Exchange: $CASHCAT Perpetual Contract 🚀&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;⚡ 2.7M TPS matching engine&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;⚡ 50us ultra-low core latency&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;⚡ Stake $CRO for lower trading fees&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;Trade Now 👉 h&lt;a&gt;ttps://crypto.com/exchange/trade/CASHCATUSD-PERP&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;Find details on Trading Bandwidth here: &lt;a href=&quot;https://help.crypto.com/en/articles/8889449-trading-bandwidth&quot;&gt;https://help.crypto.com/en/articles/8889449-t</description>
     </item>
   </channel>
 </rss>
