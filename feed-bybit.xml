@@ -4,7 +4,7 @@
     <title>Bybit</title>
     <link>https://announcements.bybit.global/</link>
     <description>Bybit All Categories</description>
-    <lastBuildDate>Fri, 07 Aug 2026 07:00:22 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 08:00:24 GMT</lastBuildDate>
     <item>
       <title>Token Buzz: Trade UNITREE. Win your share of up to a $100,000 prize pool.</title>
       <link>https://announcements.bybit.com/en-US/article/token-buzz-trade-unitree-win-your-share-of-up-to-a-100-000-prize-pool--art1f741e335572/</link>
@@ -375,13 +375,6 @@ Join Now</description>
       <description>[maintenance_updates] Bybit to Support SOMNIA (SOMI) Network Upgrade (Aug 06, 2026)</description>
     </item>
     <item>
-      <title>Risk limit adjustment for selected Perpetual Contracts PUNDIXUSDT,ARCUSDT...(Aug 7, 2026)</title>
-      <link>https://announcements.bybit.com/en-US/article/risk-limit-adjustment-for-selected-perpetual-contracts-pundixusdt-arcusdt-aug-7-2026--art3d3234c3c9fa/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/risk-limit-adjustment-for-selected-perpetual-contracts-pundixusdt-arcusdt-aug-7-2026--art3d3234c3c9fa/</guid>
-      <pubDate>Thu, 06 Aug 2026 03:04:18 GMT</pubDate>
-      <description>[maintenance_updates] Risk limit adjustment for selected Perpetual Contracts PUNDIXUSDT,ARCUSDT...(Aug 7, 2026)</description>
-    </item>
-    <item>
       <title>UTA Loans expands interest-free borrowing to 22 more assets</title>
       <link>https://announcements.bybit.com/en-US/article/uta-loans-expands-interest-free-borrowing-to-22-more-assets--artc99cdbe5836d/</link>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/uta-loans-expands-interest-free-borrowing-to-22-more-assets--artc99cdbe5836d/</guid>
@@ -429,6 +422,13 @@ Join Now</description>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/notice-of-suspension-for-zircuit-zrc-network-deposit-and-withdrawal-aug-04-2026--art71b213fc6378/</guid>
       <pubDate>Mon, 03 Aug 2026 15:59:41 GMT</pubDate>
       <description>[maintenance_updates] Notice of Suspension for Zircuit (ZRC) Network Deposit and Withdrawal (Aug 04, 2026)</description>
+    </item>
+    <item>
+      <title>[Important] UTA Loans collateral ratios increased</title>
+      <link>https://announcements.bybit.com/en-US/article/important-uta-loans-collateral-ratios-increased--artd6362ca4c9b5/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/important-uta-loans-collateral-ratios-increased--artd6362ca4c9b5/</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description>[maintenance_updates] [Important] UTA Loans collateral ratios increased</description>
     </item>
   </channel>
 </rss>
