@@ -4,7 +4,14 @@
     <title>KuCoin</title>
     <link>https://www.kucoin.com/announcements</link>
     <description>KuCoin All Categories</description>
-    <lastBuildDate>Fri, 07 Aug 2026 00:00:21 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 01:00:14 GMT</lastBuildDate>
+    <item>
+      <title>Changes to Funding Rate Intervals for HFTUSDT Perpetual Contracts (08-07)</title>
+      <link>https://www.kucoin.com/announcement//en-changes-to-funding-rate-intervals-for-hftusdt-perpetual-contracts-08-07</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-changes-to-funding-rate-intervals-for-hftusdt-perpetual-contracts-08-07</guid>
+      <pubDate>Fri, 07 Aug 2026 00:17:00 GMT</pubDate>
+      <description>[latest-announcements] Changes to Funding Rate Intervals for HFTUSDT Perpetual Contracts (08-07)</description>
+    </item>
     <item>
       <title>Changes to Funding Rate Intervals for ERAUSDT Perpetual Contracts (08-06)</title>
       <link>https://www.kucoin.com/announcement//en-changes-to-funding-rate-intervals-for-erausdt-perpetual-contracts-08-06</link>
@@ -67,13 +74,6 @@
       <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-partners-with-tv-hub-to-bring-tradingview-automation-to-kucoin-traders</guid>
       <pubDate>Wed, 05 Aug 2026 10:03:00 GMT</pubDate>
       <description>[latest-announcements] We are pleased to announce our partnership with TV-Hub, an automated trading platform that connects TradingView directly to KuCoin Spot and KuCoin Futures.</description>
-    </item>
-    <item>
-      <title>KuCoin Earn Will Delist the GLMR, MOVR Products</title>
-      <link>https://www.kucoin.com/announcement//en-kucoin-earn-will-delist-the-glmr-movr-products</link>
-      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-earn-will-delist-the-glmr-movr-products</guid>
-      <pubDate>Wed, 05 Aug 2026 06:42:00 GMT</pubDate>
-      <description>[latest-announcements] KuCoin Earn Will Delist the GLMR, MOVR Products</description>
     </item>
     <item>
       <title>KuCoin Futures Will List GIGADEVUSDT Stock Index Perpetual Contract (2026-08-04)</title>
@@ -263,6 +263,13 @@
       <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-futures-launches-new-features-for-hedge-mode-one-click-reverse-and-market-close</guid>
       <pubDate>Thu, 18 Sep 2025 03:00:02 GMT</pubDate>
       <description>[product-updates] KuCoin has officially launched three major features:</description>
+    </item>
+    <item>
+      <title>KuCoin Earn Will Delist the GLMR, MOVR Products</title>
+      <link>https://www.kucoin.com/announcement//en-kucoin-earn-will-delist-the-glmr-movr-products</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-earn-will-delist-the-glmr-movr-products</guid>
+      <pubDate>Wed, 05 Aug 2026 06:42:00 GMT</pubDate>
+      <description>[delistings] KuCoin Earn Will Delist the GLMR, MOVR Products</description>
     </item>
     <item>
       <title>KuCoin Futures Will Delist the HFTUSDT, VICUSDT &amp; VANRYUSDT Perpetual Contracts (2026-08-07)</title>
