@@ -4,7 +4,7 @@
     <title>Bybit</title>
     <link>https://announcements.bybit.global/</link>
     <description>Bybit All Categories</description>
-    <lastBuildDate>Fri, 07 Aug 2026 03:00:17 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 05:00:19 GMT</lastBuildDate>
     <item>
       <title>Token Buzz: Trade UNITREE. Win your share of up to a $100,000 prize pool.</title>
       <link>https://announcements.bybit.com/en-US/article/token-buzz-trade-unitree-win-your-share-of-up-to-a-100-000-prize-pool--art1f741e335572/</link>
@@ -221,6 +221,13 @@ Join Now</description>
       <description>[product_updates] Dual Asset 2.0: MNT Now Supported! 💥 </description>
     </item>
     <item>
+      <title>Change Tick Size for USDT Perpetual Contract Aug 11, 2026</title>
+      <link>https://announcements.bybit.com/en-US/article/change-tick-size-for-usdt-perpetual-contract-aug-11-2026--art4f47b6648755/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/change-tick-size-for-usdt-perpetual-contract-aug-11-2026--art4f47b6648755/</guid>
+      <pubDate>Thu, 06 Aug 2026 10:36:56 GMT</pubDate>
+      <description>[latest_bybit_news] To increase market liquidity and improve your trading experience, Bybit will adjust the tick size for the following Perpetual Contracts by Aug 11, 2026, 8:30AM UTC.</description>
+    </item>
+    <item>
       <title>TradFi stock listing: 10 stock CFDs now live on Bybit TradFi!</title>
       <link>https://announcements.bybit.com/en-US/article/tradfi-stock-listing-10-stock-cfds-now-live-on-bybit-tradfi--art15addf235865/</link>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/tradfi-stock-listing-10-stock-cfds-now-live-on-bybit-tradfi--art15addf235865/</guid>
@@ -282,13 +289,6 @@ Join Now</description>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/tradfi-perpetuals-new-rpi-maker-rebate-incentive-and-api-maker-rebate-update--art8c0b2e283a8f/</guid>
       <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
       <description>[latest_bybit_news] TradFi Perpetuals: New RPI maker rebate incentive and API maker rebate update</description>
-    </item>
-    <item>
-      <title>[Important] Upgrade to BTC Options strike price tiers</title>
-      <link>https://announcements.bybit.com/en-US/article/important-upgrade-to-btc-options-strike-price-tiers--artd3afaf7fa9b0/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/important-upgrade-to-btc-options-strike-price-tiers--artd3afaf7fa9b0/</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <description>[latest_bybit_news] Major upgrade for BTC Options</description>
     </item>
     <item>
       <title>Spot Token Delisting Notice</title>
@@ -361,6 +361,13 @@ Join Now</description>
       <description>[delistings] In line with the Bybit Token Management Rules and to safeguard our users' interests, Bybit conducts regular reviews of all listed Spot trading pairs to maintain a secure and reliable trading environment.</description>
     </item>
     <item>
+      <title>Bybit to Support Babylon (BABY1) v4.4.0 Network Upgrade</title>
+      <link>https://announcements.bybit.com/en-US/article/bybit-to-support-babylon-baby1-v4-4-0-network-upgrade--art120fdc0c74ae/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-babylon-baby1-v4-4-0-network-upgrade--art120fdc0c74ae/</guid>
+      <pubDate>Fri, 07 Aug 2026 12:00:37 GMT</pubDate>
+      <description>[maintenance_updates] Bybit to Support Babylon (BABY1) v4.4.0 Network Upgrade</description>
+    </item>
+    <item>
       <title>Bybit to Support SOMNIA (SOMI) Network Upgrade (Aug 06, 2026)</title>
       <link>https://announcements.bybit.com/en-US/article/bybit-to-support-somnia-somi-network-upgrade-aug-06-2026--art1308421a3a5d/</link>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-somnia-somi-network-upgrade-aug-06-2026--art1308421a3a5d/</guid>
@@ -422,13 +429,6 @@ Join Now</description>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/notice-of-suspension-for-zircuit-zrc-network-deposit-and-withdrawal-aug-04-2026--art71b213fc6378/</guid>
       <pubDate>Mon, 03 Aug 2026 15:59:41 GMT</pubDate>
       <description>[maintenance_updates] Notice of Suspension for Zircuit (ZRC) Network Deposit and Withdrawal (Aug 04, 2026)</description>
-    </item>
-    <item>
-      <title>[Important] UTA Loans collateral ratios increased</title>
-      <link>https://announcements.bybit.com/en-US/article/important-uta-loans-collateral-ratios-increased--artd6362ca4c9b5/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/important-uta-loans-collateral-ratios-increased--artd6362ca4c9b5/</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-      <description>[maintenance_updates] [Important] UTA Loans collateral ratios increased</description>
     </item>
   </channel>
 </rss>
