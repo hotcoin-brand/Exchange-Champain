@@ -4,7 +4,7 @@
     <title>Bybit</title>
     <link>https://announcements.bybit.global/</link>
     <description>Bybit All Categories</description>
-    <lastBuildDate>Mon, 10 Aug 2026 11:00:09 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 12:00:09 GMT</lastBuildDate>
     <item>
       <title>Token Buzz: Trade MOONSHOT. Win your share of up to a $100,000 prize pool.</title>
       <link>https://announcements.bybit.com/en-US/article/token-buzz-trade-moonshot-win-your-share-of-up-to-a-100-000-prize-pool--artcb5cc77066e4/</link>
@@ -356,6 +356,13 @@
       <description>[delistings] Bybit will be delisting the BOBBOBUSDT Perpetual Contract at Jul 27, 2026, 9:00AM UTC.</description>
     </item>
     <item>
+      <title>TradFi Perpetual Contract Parameter Updates</title>
+      <link>https://announcements.bybit.com/en-US/article/tradfi-perpetual-contract-parameter-updates--art04913b570c99/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/tradfi-perpetual-contract-parameter-updates--art04913b570c99/</guid>
+      <pubDate>Mon, 10 Aug 2026 15:00:00 GMT</pubDate>
+      <description>[maintenance_updates] TradFi Perpetual Contract Parameter Updates</description>
+    </item>
+    <item>
       <title>Bybit TradFi Perpetual Contract Funding Rate Adjustment Announcement</title>
       <link>https://announcements.bybit.com/en-US/article/bybit-tradfi-perpetual-contract-funding-rate-adjustment-announcement--art02886635b821/</link>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-tradfi-perpetual-contract-funding-rate-adjustment-announcement--art02886635b821/</guid>
@@ -417,13 +424,6 @@
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-seievm-sei-v6-6-0-network-upgrade--art0d4d67a1e1fd/</guid>
       <pubDate>Tue, 04 Aug 2026 11:40:40 GMT</pubDate>
       <description>[maintenance_updates] Bybit to Support SEIEVM (Sei) v6.6.0 Network Upgrade</description>
-    </item>
-    <item>
-      <title>Important notice: Tiered margin adjustment for oil on TradFi CFD</title>
-      <link>https://announcements.bybit.com/en-US/article/important-notice-tiered-margin-adjustment-for-oil-on-tradfi-cfd--art0fef89976523/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/important-notice-tiered-margin-adjustment-for-oil-on-tradfi-cfd--art0fef89976523/</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description>[maintenance_updates] Important notice: Tiered margin adjustment for oil on TradFi CFD</description>
     </item>
   </channel>
 </rss>
