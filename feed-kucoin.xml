@@ -4,7 +4,21 @@
     <title>KuCoin</title>
     <link>https://www.kucoin.com/announcements</link>
     <description>KuCoin All Categories</description>
-    <lastBuildDate>Mon, 10 Aug 2026 13:00:15 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 14:00:10 GMT</lastBuildDate>
+    <item>
+      <title>KuCoin VIP Premier+ | Unlock Exclusive 1-Month VIP5 Privileges</title>
+      <link>https://www.kucoin.com/announcement//en-kucoin-vip-premier-unlock-exclusive-1-month-vip5-privileges</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-vip-premier-unlock-exclusive-1-month-vip5-privileges</guid>
+      <pubDate>Mon, 10 Aug 2026 13:32:00 GMT</pubDate>
+      <description>[latest-announcements] To provide a more professional trading experience and enhanced benefits for high-value users, KuCoin is introducing an exclusive VIP privilege for eligible new users.</description>
+    </item>
+    <item>
+      <title>KuCoin Earn to Adjust Earnings for Selected Simple Earn (Flexible) Products and Delist Certain Assets</title>
+      <link>https://www.kucoin.com/announcement//en-kucoin-earn-to-adjust-earnings-for-selected-simple-earn-flexible-products-and-delist-certain-assets</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-earn-to-adjust-earnings-for-selected-simple-earn-flexible-products-and-delist-certain-assets</guid>
+      <pubDate>Mon, 10 Aug 2026 13:08:00 GMT</pubDate>
+      <description>[latest-announcements] KuCoin Earn to Adjust Earnings for Selected Simple Earn (Flexible) Products and Delist Certain Assets</description>
+    </item>
     <item>
       <title>KuCoin Will Support the Token Migration of Vanar Chain (VANRY) </title>
       <link>https://www.kucoin.com/announcement//en-kucoin-will-support-the-token-migration-of-vanar-chain-vanry-20260810</link>
@@ -60,20 +74,6 @@
       <guid isPermaLink="true">https://www.kucoin.com/announcement//en-changes-to-funding-rate-intervals-for-tutusdt-perpetual-contracts-08-10</guid>
       <pubDate>Mon, 10 Aug 2026 02:08:00 GMT</pubDate>
       <description>[latest-announcements] Changes to Funding Rate Intervals for TUTUSDT Perpetual Contracts (08-10)</description>
-    </item>
-    <item>
-      <title>KuCoin Has Temporarily Closed the Deposit and Withdrawal Services of Oraichain Token (ORAI)</title>
-      <link>https://www.kucoin.com/announcement//en-kucoin-has-temporarily-closed-the-deposit-and-withdrawal-services-of-oraichain-token-orai</link>
-      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-has-temporarily-closed-the-deposit-and-withdrawal-services-of-oraichain-token-orai</guid>
-      <pubDate>Sun, 09 Aug 2026 07:16:00 GMT</pubDate>
-      <description>[latest-announcements] KuCoin Has Temporarily Closed the Deposit and Withdrawal Services of Oraichain Token (ORAI)</description>
-    </item>
-    <item>
-      <title>Notice on Resumption of EUR Deposits via SEPA Bank Transfer for Individual Users</title>
-      <link>https://www.kucoin.com/announcement//en-Notice-on-Resumption-of-EUR-Deposits-via-SEPA-Bank-Transfer-for-Individual-Users</link>
-      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-Notice-on-Resumption-of-EUR-Deposits-via-SEPA-Bank-Transfer-for-Individual-Users</guid>
-      <pubDate>Fri, 07 Aug 2026 11:04:00 GMT</pubDate>
-      <description>[latest-announcements] We are pleased to inform you that the EUR deposit service via SEPA Bank Transfer has been restored for individual users and is now available as usual.</description>
     </item>
     <item>
       <title>Pipedog (PIPEDOG) Listed on KuCoin</title>
@@ -340,13 +340,6 @@
       <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-futures-will-delist-the-aergousdt-perpetual-contract-2026-07-28</guid>
       <pubDate>Sat, 25 Jul 2026 07:45:00 GMT</pubDate>
       <description>[delistings] KuCoin Futures Will Delist the AERGOUSDT Perpetual Contract (2026-07-28)</description>
-    </item>
-    <item>
-      <title>KuCoin Futures Will Delist the ROAMUSDT Perpetual Contract (2026-07-20)</title>
-      <link>https://www.kucoin.com/announcement//en-kucoin-futures-will-delist-the-roamusdt-perpetual-contract-2026-07-20</link>
-      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-futures-will-delist-the-roamusdt-perpetual-contract-2026-07-20</guid>
-      <pubDate>Mon, 20 Jul 2026 04:32:00 GMT</pubDate>
-      <description>[delistings] KuCoin Futures Will Delist the ROAMUSDT Perpetual Contract (2026-07-20)</description>
     </item>
   </channel>
 </rss>
