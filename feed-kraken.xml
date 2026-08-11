@@ -4,7 +4,21 @@
     <title>Kraken</title>
     <link>https://blog.kraken.com</link>
     <description>Kraken Blog Posts</description>
-    <lastBuildDate>Tue, 11 Aug 2026 06:00:10 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 20:00:10 GMT</lastBuildDate>
+    <item>
+      <title>DOS is available for trading!</title>
+      <link>https://blog.kraken.com/product/asset-listings/dos-is-available-for-trading</link>
+      <guid isPermaLink="true">https://blog.kraken.com/product/asset-listings/dos-is-available-for-trading</guid>
+      <pubDate>Tue, 11 Aug 2026 11:53:08 GMT</pubDate>
+      <description>We’re thrilled to announce that DOS is available for trading on Kraken! Funding and trading DOS trading is live as of August 10, 2026. To add an asset to your Kraken account, navigate to Funding, select the asset you’re after, and hit ‘Deposit’.&amp;nbsp; Make sure to deposit your tokens into networks supported by Kraken. Deposits [&amp;hellip;]</description>
+    </item>
+    <item>
+      <title>We’re raising BTC/USD margin leverage to 20x on Kraken Pro</title>
+      <link>https://blog.kraken.com/product/margin/btc-usd-20x-on-kraken-pro</link>
+      <guid isPermaLink="true">https://blog.kraken.com/product/margin/btc-usd-20x-on-kraken-pro</guid>
+      <pubDate>Tue, 11 Aug 2026 11:40:28 GMT</pubDate>
+      <description>Full margin visibility remains available at every step of a position’s life. A higher ceiling gives you more room to size a position. It doesn’t change how that position is measured, managed, or charged.</description>
+    </item>
     <item>
       <title>MON staking is live globally at up to 12% APY</title>
       <link>https://blog.kraken.com/product/staking/monad</link>
@@ -130,20 +144,6 @@
       <guid isPermaLink="true">https://blog.kraken.com/product/ipo-access/jersey-mikes</guid>
       <pubDate>Tue, 28 Jul 2026 08:02:24 GMT</pubDate>
       <description>America&amp;#8217;s sandwich giant is going public. You can be in before it starts trading.</description>
-    </item>
-    <item>
-      <title>A dense week ahead: Fed decision, Big Tech earnings, and month-end crypto expiry</title>
-      <link>https://blog.kraken.com/economic-brief/july-22-2026</link>
-      <guid isPermaLink="true">https://blog.kraken.com/economic-brief/july-22-2026</guid>
-      <pubDate>Wed, 22 Jul 2026 05:31:47 GMT</pubDate>
-      <description>The Federal Reserve, ECB, Bank of England, and Bank of Japan announce policy decisions within ten days, alongside major earnings and crypto derivatives expiry, creating a high-density economic calendar for active traders.</description>
-    </item>
-    <item>
-      <title>SN62 is available for trading!</title>
-      <link>https://blog.kraken.com/product/asset-listings/sn62-is-available-for-trading</link>
-      <guid isPermaLink="true">https://blog.kraken.com/product/asset-listings/sn62-is-available-for-trading</guid>
-      <pubDate>Tue, 21 Jul 2026 11:50:08 GMT</pubDate>
-      <description>We’re thrilled to announce that SN62 is available for trading on Kraken! Funding and trading SN62 trading is live as of July 21, 2026. To add an asset to your Kraken account, navigate to Funding, select the asset you’re after, and hit ‘Deposit’.&amp;nbsp; Make sure to deposit your tokens into networks supported by Kraken. Deposits [&amp;hellip;]</description>
     </item>
   </channel>
 </rss>
