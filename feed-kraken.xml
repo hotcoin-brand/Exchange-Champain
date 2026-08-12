@@ -4,7 +4,21 @@
     <title>Kraken</title>
     <link>https://blog.kraken.com</link>
     <description>Kraken Blog Posts</description>
-    <lastBuildDate>Wed, 12 Aug 2026 12:00:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 16:00:08 GMT</lastBuildDate>
+    <item>
+      <title>Trade the S&amp;amp;P 500 with our money using Kraken Prop</title>
+      <link>https://blog.kraken.com/product/prop/trade-the-sp500</link>
+      <guid isPermaLink="true">https://blog.kraken.com/product/prop/trade-the-sp500</guid>
+      <pubDate>Wed, 12 Aug 2026 08:04:21 GMT</pubDate>
+      <description>The S&amp;#038;P 500 and Nasdaq 100 are the first two markets in a broader multi-asset build-out for Kraken Prop, with commodities next on the roadmap.</description>
+    </item>
+    <item>
+      <title>Kraken and MEXC partner to migrate Netherlands clients</title>
+      <link>https://blog.kraken.com/news/industry-news/kraken-and-mexc-partner-to-migrate-netherlands-clients</link>
+      <guid isPermaLink="true">https://blog.kraken.com/news/industry-news/kraken-and-mexc-partner-to-migrate-netherlands-clients</guid>
+      <pubDate>Wed, 12 Aug 2026 07:34:47 GMT</pubDate>
+      <description>Agreement provides referral and transition services to support MEXC clients as the exchange winds down its offering in the Netherlands</description>
+    </item>
     <item>
       <title>CPI, PPI, and FOMC minutes headline a two-week data window</title>
       <link>https://blog.kraken.com/economic-brief/august-12-2026</link>
@@ -130,20 +144,6 @@
       <guid isPermaLink="true">https://blog.kraken.com/product/fixed-rate-rewards/up-to-7-apr-on-cash-and-stablecoins</guid>
       <pubDate>Tue, 28 Jul 2026 14:00:05 GMT</pubDate>
       <description>Clients can now choose a term, lock their rate for its full duration, and let rewards compound automatically, with no rate drift and no active management required.</description>
-    </item>
-    <item>
-      <title>PYUSD deposits and withdrawals now available on Stellar!</title>
-      <link>https://blog.kraken.com/product/new-features/pyusd-deposits-and-withdrawals-now-available-on-stellar</link>
-      <guid isPermaLink="true">https://blog.kraken.com/product/new-features/pyusd-deposits-and-withdrawals-now-available-on-stellar</guid>
-      <pubDate>Tue, 28 Jul 2026 13:35:13 GMT</pubDate>
-      <description>Kraken now supports deposits and withdrawals of PYUSD on Stellar</description>
-    </item>
-    <item>
-      <title>USDC deposits and withdrawals now available on Injective!</title>
-      <link>https://blog.kraken.com/product/new-features/usdc-deposits-and-withdrawals-now-available-on-injective</link>
-      <guid isPermaLink="true">https://blog.kraken.com/product/new-features/usdc-deposits-and-withdrawals-now-available-on-injective</guid>
-      <pubDate>Tue, 28 Jul 2026 13:25:46 GMT</pubDate>
-      <description>Kraken now supports deposits and withdrawals of USDC on Injective</description>
     </item>
   </channel>
 </rss>
