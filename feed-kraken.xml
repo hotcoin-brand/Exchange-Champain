@@ -4,7 +4,14 @@
     <title>Kraken</title>
     <link>https://blog.kraken.com</link>
     <description>Kraken Blog Posts</description>
-    <lastBuildDate>Wed, 12 Aug 2026 09:00:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 12:00:09 GMT</lastBuildDate>
+    <item>
+      <title>CPI, PPI, and FOMC minutes headline a two-week data window</title>
+      <link>https://blog.kraken.com/economic-brief/august-12-2026</link>
+      <guid isPermaLink="true">https://blog.kraken.com/economic-brief/august-12-2026</guid>
+      <pubDate>Wed, 12 Aug 2026 05:14:54 GMT</pubDate>
+      <description>This window is data-dense, but density alone doesn&amp;#8217;t make it decisive. Each release adds one data point to an ongoing rate-path debate rather than settling it outright.</description>
+    </item>
     <item>
       <title>DOS is available for trading!</title>
       <link>https://blog.kraken.com/product/asset-listings/dos-is-available-for-trading</link>
@@ -137,13 +144,6 @@
       <guid isPermaLink="true">https://blog.kraken.com/product/new-features/usdc-deposits-and-withdrawals-now-available-on-injective</guid>
       <pubDate>Tue, 28 Jul 2026 13:25:46 GMT</pubDate>
       <description>Kraken now supports deposits and withdrawals of USDC on Injective</description>
-    </item>
-    <item>
-      <title>Jersey Mike&amp;#8217;s IPO access now available</title>
-      <link>https://blog.kraken.com/product/ipo-access/jersey-mikes</link>
-      <guid isPermaLink="true">https://blog.kraken.com/product/ipo-access/jersey-mikes</guid>
-      <pubDate>Tue, 28 Jul 2026 08:02:24 GMT</pubDate>
-      <description>America&amp;#8217;s sandwich giant is going public. You can be in before it starts trading.</description>
     </item>
   </channel>
 </rss>
