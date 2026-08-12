@@ -4,7 +4,14 @@
     <title>KuCoin</title>
     <link>https://www.kucoin.com/announcements</link>
     <description>KuCoin All Categories</description>
-    <lastBuildDate>Wed, 12 Aug 2026 08:00:10 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 09:00:12 GMT</lastBuildDate>
+    <item>
+      <title>KuCoin Will Delist Certain Projects &amp; Their Associated Tokens</title>
+      <link>https://www.kucoin.com/announcement//en-kucoin-will-delist-certain-projects-their-associated-tokens-20260812</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-will-delist-certain-projects-their-associated-tokens-20260812</guid>
+      <pubDate>Wed, 12 Aug 2026 08:51:00 GMT</pubDate>
+      <description>[latest-announcements] In accordance with the Special Treatment Rules of KuCoin, the following project will be delisted, and its associated token will be removed from the platform.</description>
+    </item>
     <item>
       <title>KuCoin Has Temporarily Closed the Deposit Service of Harmony (ONE)</title>
       <link>https://www.kucoin.com/announcement//en-kucoin-has-temporarily-closed-the-deposit-service-of-harmony-one</link>
@@ -73,7 +80,7 @@
       <link>https://www.kucoin.com/announcement//en-dappos-dos-listed-on-kucoin</link>
       <guid isPermaLink="true">https://www.kucoin.com/announcement//en-dappos-dos-listed-on-kucoin</guid>
       <pubDate>Tue, 11 Aug 2026 08:15:00 GMT</pubDate>
-      <description>[latest-announcements] Trading: 12:00 on August 11, 2026 (UTC)</description>
+      <description>[new-listings] Trading: 12:00 on August 11, 2026 (UTC)</description>
     </item>
     <item>
       <title>HODLer Airdrops: AI Router Protocol (AIR) World Premiere Listing on KuCoin</title>
@@ -319,13 +326,6 @@
       <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-earn-will-delist-two-project-coins</guid>
       <pubDate>Tue, 28 Jul 2026 11:04:00 GMT</pubDate>
       <description>[delistings] KuCoin Earn Will Delist Two Project Coins</description>
-    </item>
-    <item>
-      <title>ST: KuCoin Will Delist Certain Projects &amp; Their Associated Tokens</title>
-      <link>https://www.kucoin.com/announcement//en-st-kucoin-will-delist-certain-projects-their-associated-tokens-270726</link>
-      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-st-kucoin-will-delist-certain-projects-their-associated-tokens-270726</guid>
-      <pubDate>Tue, 28 Jul 2026 01:55:00 GMT</pubDate>
-      <description>[delistings] In accordance with the Special Treatment Rules of KuCoin, the following project will be delisted, and its associated token will be removed from the platform. </description>
     </item>
   </channel>
 </rss>
