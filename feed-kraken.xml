@@ -4,7 +4,14 @@
     <title>Kraken</title>
     <link>https://blog.kraken.com</link>
     <description>Kraken Blog Posts</description>
-    <lastBuildDate>Thu, 13 Aug 2026 16:00:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 20:00:38 GMT</lastBuildDate>
+    <item>
+      <title>Kraken partners with Mesh to simplify crypto deposits</title>
+      <link>https://blog.kraken.com/news/kraken-partners-with-mesh-to-simplify-crypto-deposits</link>
+      <guid isPermaLink="true">https://blog.kraken.com/news/kraken-partners-with-mesh-to-simplify-crypto-deposits</guid>
+      <pubDate>Thu, 13 Aug 2026 12:34:57 GMT</pubDate>
+      <description>A new deposit option lets you move crypto from another exchange straight into your Kraken account, without copying and pasting an address.</description>
+    </item>
     <item>
       <title>Kraken Institutional supports Lombard&amp;#8217;s transition to institutional Bitcoin yield</title>
       <link>https://blog.kraken.com/product/kraken-institutional/supports-lombards-transition-to-institutional-bitcoin-yield</link>
@@ -137,13 +144,6 @@
       <guid isPermaLink="true">https://blog.kraken.com/product/api/kraken-api-partner-program-infrastructure</guid>
       <pubDate>Wed, 29 Jul 2026 06:15:27 GMT</pubDate>
       <description>There is a stage in every platform&amp;#8217;s growth where product alone stops being enough.</description>
-    </item>
-    <item>
-      <title>Fed decision headlines two weeks of inflation and jobs data</title>
-      <link>https://blog.kraken.com/economic-brief/july-29-2026</link>
-      <guid isPermaLink="true">https://blog.kraken.com/economic-brief/july-29-2026</guid>
-      <pubDate>Wed, 29 Jul 2026 04:55:12 GMT</pubDate>
-      <description>The Federal Reserve’s rate decision opens two weeks of overlapping catalysts, from crypto-linked earnings and a monthly options expiry to the July jobs report and CPI.</description>
     </item>
   </channel>
 </rss>
