@@ -4,7 +4,22 @@
     <title>Crypto.com</title>
     <link>https://crypto.com/exchange/announcements</link>
     <description>Crypto.com Exchange</description>
-    <lastBuildDate>Thu, 13 Aug 2026 09:00:57 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 13:00:39 GMT</lastBuildDate>
+    <item>
+      <title>Trading Has Resumed for Selected Spot Pairs and Perpetual Contracts on the Crypto.com Exchange - Price and Quantity Tick Sizes Update</title>
+      <link>https://crypto.com/exchange/announcements/6a7d839ef3d072da8cac95b0</link>
+      <guid isPermaLink="true">https://crypto.com/exchange/announcements/6a7d839ef3d072da8cac95b0</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+      <description>[product] &lt;p dir=&quot;ltr&quot;&gt;Please be informed that the Price and Quantity Tick Sizes for the following Spot pairs and Perpetual Contracts have been successfully updated:&amp;nbsp;&lt;/p&gt;
+&lt;div dir=&quot;ltr&quot; align=&quot;center&quot;&gt;
+&lt;table style=&quot;border-collapse: collapse; border-color: #000000;&quot; border=&quot;1&quot;&gt;&lt;colgroup&gt;&lt;col width=&quot;192&quot;&gt;&lt;col width=&quot;259&quot;&gt;&lt;col width=&quot;259&quot;&gt;&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;border-color: rgb(0, 0, 0);&quot; scope=&quot;col&quot;&gt;
+&lt;p dir=&quot;ltr&quot;&gt;Instrument&lt;/p&gt;
+&lt;/th&gt;
+&lt;th style=&quot;border-color: rgb(0, 0, 0);&quot; scop</description>
+    </item>
     <item>
       <title>GMTUSD-PERP Perpetual Contract Has Been Delisted</title>
       <link>https://crypto.com/exchange/announcements/6a7c51cb953aece4e289b97e</link>
@@ -315,15 +330,6 @@
       <description>[delist] &lt;p dir=&quot;ltr&quot;&gt;Please be informed that &lt;strong&gt;Movement (MOVE)&lt;/strong&gt; has been delisted from the Crypto.com Exchange (Advanced Trading Platform). Any remaining MOVE in your Exchange (Advanced Trading Platform) account have been converted to USD Bundle.*&amp;nbsp;&lt;/p&gt;
 &lt;p dir=&quot;ltr&quot;&gt;If you have questions, please contact us at &lt;a href=&quot;http://chat.crypto.com&quot;&gt;chat.crypto.com&lt;/a&gt;. We’re here to help.&lt;/p&gt;
 &lt;p dir=&quot;ltr&quot;&gt;&lt;em&gt;*The conversion rates for MOVE to the USD bundle were determined by Crypto.</description>
-    </item>
-    <item>
-      <title>Delisting of GRAM/EUR From the Crypto.com Exchange (Advanced Trading Platform)</title>
-      <link>https://crypto.com/exchange/announcements/6a61ebd9d77a2a53fd0a2175</link>
-      <guid isPermaLink="true">https://crypto.com/exchange/announcements/6a61ebd9d77a2a53fd0a2175</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
-      <description>[delist] &lt;p dir=&quot;ltr&quot;&gt;As part of our ongoing efforts to consolidate liquidity and improve your trading experience on the Crypto.com Exchange (Advanced Trading Platform), we will be delisting the following pair on July 30:&amp;nbsp;&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;GRAM/EUR&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;All open orders in this pair will be cancelled after &lt;strong&gt;July 30, 2026, 03:00 UTC&lt;/strong&gt;. Users are advised to terminate Trading Bots (if any) to prevent disruption in trading. Please note that the following spot pairs are </description>
     </item>
   </channel>
 </rss>
