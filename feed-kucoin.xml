@@ -4,7 +4,28 @@
     <title>KuCoin</title>
     <link>https://www.kucoin.com/announcements</link>
     <description>KuCoin All Categories</description>
-    <lastBuildDate>Thu, 13 Aug 2026 06:00:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 08:00:36 GMT</lastBuildDate>
+    <item>
+      <title>KuCoin Alpha New Listed Token — MANLET (MANLET)</title>
+      <link>https://www.kucoin.com/announcement//en-kucoin-alpha-new-listed-token-manlet-manlet</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-alpha-new-listed-token-manlet-manlet</guid>
+      <pubDate>Thu, 13 Aug 2026 07:36:00 GMT</pubDate>
+      <description>[latest-announcements] KuCoin Alpha New Listed Token — MANLET (MANLET)</description>
+    </item>
+    <item>
+      <title>KuCoin Has Temporarily Closed the Deposit Service of Wisdomise AI (WSDM)</title>
+      <link>https://www.kucoin.com/announcement//en-kucoin-has-temporarily-closed-the-deposit-service-of-wisdomise-ai-wsdm</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-has-temporarily-closed-the-deposit-service-of-wisdomise-ai-wsdm</guid>
+      <pubDate>Thu, 13 Aug 2026 06:15:00 GMT</pubDate>
+      <description>[latest-announcements] KuCoin Has Temporarily Closed the Deposit Service of Wisdomise AI (WSDM)</description>
+    </item>
+    <item>
+      <title>KuCoin Will Delist Certain Projects &amp; Their Associated Tokens</title>
+      <link>https://www.kucoin.com/announcement//en-kucoin-will-delist-certain-projects-their-associated-tokens-20260813</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-will-delist-certain-projects-their-associated-tokens-20260813</guid>
+      <pubDate>Thu, 13 Aug 2026 06:15:00 GMT</pubDate>
+      <description>[latest-announcements] In accordance with the Special Treatment Rules of KuCoin, the following project will be delisted, and its associated token will be removed from the platform.</description>
+    </item>
     <item>
       <title>KuCoin Will Adjust the Tick Size for Certain Spot Trading Pairs</title>
       <link>https://www.kucoin.com/announcement//en-kucoin-will-adjust-the-tick-size-for-certain-spot-trading-pairs-20260813</link>
@@ -53,27 +74,6 @@
       <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-futures-new-listing-dosusdt-perpetual-contract-with-up-to-20x-leverage</guid>
       <pubDate>Wed, 12 Aug 2026 05:22:00 GMT</pubDate>
       <description>[latest-announcements] KuCoin Futures New Listing: DOSUSDT Perpetual Contract with Up to 20x Leverage</description>
-    </item>
-    <item>
-      <title>Changes to Funding Rate Intervals for ESUSDT Perpetual Contracts (08-12)</title>
-      <link>https://www.kucoin.com/announcement//en-changes-to-funding-rate-intervals-for-esusdt-perpetual-contracts-08-12</link>
-      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-changes-to-funding-rate-intervals-for-esusdt-perpetual-contracts-08-12</guid>
-      <pubDate>Wed, 12 Aug 2026 03:14:00 GMT</pubDate>
-      <description>[latest-announcements] Changes to Funding Rate Intervals for ESUSDT Perpetual Contracts (08-12)</description>
-    </item>
-    <item>
-      <title>KuCoin Has Temporarily Closed the Deposit Service of EYWA (EYWA)</title>
-      <link>https://www.kucoin.com/announcement//en-kucoin-has-temporarily-closed-the-deposit-service-of-eywa-eywa</link>
-      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-has-temporarily-closed-the-deposit-service-of-eywa-eywa</guid>
-      <pubDate>Tue, 11 Aug 2026 15:08:00 GMT</pubDate>
-      <description>[latest-announcements] KuCoin Has Temporarily Closed the Deposit Service of EYWA (EYWA)</description>
-    </item>
-    <item>
-      <title>KuCoin Has Temporarily Closed the Deposit Service of Eclipse (ES)</title>
-      <link>https://www.kucoin.com/announcement//en-kucoin-has-temporarily-closed-the-deposit-service-of-eclipse-es</link>
-      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-has-temporarily-closed-the-deposit-service-of-eclipse-es</guid>
-      <pubDate>Tue, 11 Aug 2026 15:05:00 GMT</pubDate>
-      <description>[latest-announcements] KuCoin Has Temporarily Closed the Deposit Service of Eclipse (ES)</description>
     </item>
     <item>
       <title>DAPPOS (DOS) Listed on KuCoin</title>
@@ -326,13 +326,6 @@
       <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-earn-will-delist-selected-usdt-simple-earn-fixed-products</guid>
       <pubDate>Thu, 30 Jul 2026 10:00:00 GMT</pubDate>
       <description>[delistings] KuCoin Earn Will Delist Selected USDT Simple Earn (Fixed) Products</description>
-    </item>
-    <item>
-      <title>KuCoin Earn Will Delist Two Project Coins</title>
-      <link>https://www.kucoin.com/announcement//en-kucoin-earn-will-delist-two-project-coins</link>
-      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-earn-will-delist-two-project-coins</guid>
-      <pubDate>Tue, 28 Jul 2026 11:04:00 GMT</pubDate>
-      <description>[delistings] KuCoin Earn Will Delist Two Project Coins</description>
     </item>
   </channel>
 </rss>
