@@ -4,7 +4,14 @@
     <title>KuCoin</title>
     <link>https://www.kucoin.com/announcements</link>
     <description>KuCoin All Categories</description>
-    <lastBuildDate>Mon, 17 Aug 2026 02:00:56 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 03:00:56 GMT</lastBuildDate>
+    <item>
+      <title>KuCoin Will Adjust the Tick Size for Certain Spot Trading Pairs</title>
+      <link>https://www.kucoin.com/announcement//en-kucoin-will-adjust-the-tick-size-for-certain-spot-trading-pairs-20260817</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-will-adjust-the-tick-size-for-certain-spot-trading-pairs-20260817</guid>
+      <pubDate>Mon, 17 Aug 2026 02:49:00 GMT</pubDate>
+      <description>[latest-announcements] In order to increase market liquidity and improve trading experience, KuCoin will be adjusting the tick size (i.e., the minimum change in the unit price) of the following spot trading pairs at 06:00 on August 17, 2026 (UTC).</description>
+    </item>
     <item>
       <title>XDC Futures Trading Carnival — Share a Prize Pool of 500,000 XDC</title>
       <link>https://www.kucoin.com/announcement//xdc-futures-trading-carnival-share-a-prize-pool-of-500000-xdc</link>
@@ -55,13 +62,6 @@
       <description>[latest-announcements] KiiChain (KII) Listing Campaign — 649,350 KII to Giveaway</description>
     </item>
     <item>
-      <title>KuCoin Margin Trading Services Will Delist Multiple Tokens</title>
-      <link>https://www.kucoin.com/announcement//kucoin-margin-notice-260813</link>
-      <guid isPermaLink="true">https://www.kucoin.com/announcement//kucoin-margin-notice-260813</guid>
-      <pubDate>Fri, 14 Aug 2026 03:40:00 GMT</pubDate>
-      <description>[latest-announcements] KuCoin will Delist the Cross Margin Trading services for QNT, AR, and JASMY, and Isolated Margin Trading Services for ZORA.</description>
-    </item>
-    <item>
       <title>KuCoin Will Adjust the Tick Size for Certain Spot Trading Pairs</title>
       <link>https://www.kucoin.com/announcement//en-kucoin-will-adjust-the-tick-size-for-certain-spot-trading-pairs-2026081410</link>
       <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-will-adjust-the-tick-size-for-certain-spot-trading-pairs-2026081410</guid>
@@ -69,11 +69,11 @@
       <description>[latest-announcements] In order to increase market liquidity and improve trading experience, KuCoin will be adjusting the minimum order quantity of the following spot trading pairs at 10:00 on August 14, 2026 (UTC).</description>
     </item>
     <item>
-      <title>KuCoin Will Adjust the Tick Size for Certain Spot Trading Pairs</title>
-      <link>https://www.kucoin.com/announcement//en-kucoin-will-adjust-the-tick-size-for-certain-spot-trading-pairs-20260814</link>
-      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-will-adjust-the-tick-size-for-certain-spot-trading-pairs-20260814</guid>
-      <pubDate>Fri, 14 Aug 2026 03:28:00 GMT</pubDate>
-      <description>[latest-announcements] In order to increase market liquidity and improve trading experience, KuCoin will be adjusting the tick size (i.e., the minimum change in the unit price) of the following spot trading pairs at 06:00 on August 14, 2026 (UTC).</description>
+      <title>KuCoin Margin Trading Services Will Delist Multiple Tokens</title>
+      <link>https://www.kucoin.com/announcement//kucoin-margin-notice-260813</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//kucoin-margin-notice-260813</guid>
+      <pubDate>Fri, 14 Aug 2026 03:40:00 GMT</pubDate>
+      <description>[latest-announcements] KuCoin will Delist the Cross Margin Trading services for QNT, AR, and JASMY, and Isolated Margin Trading Services for ZORA.</description>
     </item>
     <item>
       <title>World Premiere: KiiChain (KII) Listed on KuCoin</title>
