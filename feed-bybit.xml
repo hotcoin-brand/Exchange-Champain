@@ -4,7 +4,7 @@
     <title>Bybit</title>
     <link>https://announcements.bybit.global/</link>
     <description>Bybit All Categories</description>
-    <lastBuildDate>Mon, 17 Aug 2026 04:00:55 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 07:00:56 GMT</lastBuildDate>
     <item>
       <title>Token Buzz: Trade MOONSHOT. Win your share of up to a $100,000 prize pool.</title>
       <link>https://announcements.bybit.com/en-US/article/token-buzz-trade-moonshot-win-your-share-of-up-to-a-100-000-prize-pool--artcb5cc77066e4/</link>
@@ -286,6 +286,13 @@
       <description>[delistings] Bybit will be delisting the ROAMUSDT Perpetual Contract at Jul 27, 2026, 9:00AM UTC.</description>
     </item>
     <item>
+      <title>Bybit to Support ValueChain (SOSO) Network Upgrade (Aug 17, 2026)</title>
+      <link>https://announcements.bybit.com/en-US/article/bybit-to-support-valuechain-soso-network-upgrade-aug-17-2026--artc9206d39f804/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-valuechain-soso-network-upgrade-aug-17-2026--artc9206d39f804/</guid>
+      <pubDate>Mon, 17 Aug 2026 11:34:25 GMT</pubDate>
+      <description>[maintenance_updates] Bybit to Support ValueChain (SOSO) Network Upgrade (Aug 17, 2026)</description>
+    </item>
+    <item>
       <title>Bybit to Support Polygon (POL) Network Upgrade (Aug 13, 2026)</title>
       <link>https://announcements.bybit.com/en-US/article/bybit-to-support-polygon-pol-network-upgrade-aug-13-2026--arta80c6e68c964/</link>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-polygon-pol-network-upgrade-aug-13-2026--arta80c6e68c964/</guid>
@@ -347,13 +354,6 @@
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-cosmos-atom-v27-6-0-network-upgrade--art6b2d598dcd85/</guid>
       <pubDate>Wed, 05 Aug 2026 14:11:05 GMT</pubDate>
       <description>[maintenance_updates] Bybit to Support Cosmos (ATOM) v27.6.0 Network Upgrade</description>
-    </item>
-    <item>
-      <title>Bybit to Support Litecoin (LTC) v0.21.5.6 Network Upgrade</title>
-      <link>https://announcements.bybit.com/en-US/article/bybit-to-support-litecoin-ltc-v0-21-5-6-network-upgrade--artf4ded70c0b6e/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-litecoin-ltc-v0-21-5-6-network-upgrade--artf4ded70c0b6e/</guid>
-      <pubDate>Tue, 04 Aug 2026 12:00:45 GMT</pubDate>
-      <description>[maintenance_updates] Bybit to Support Litecoin (LTC) v0.21.5.6 Network Upgrade</description>
     </item>
   </channel>
 </rss>
