@@ -4,7 +4,14 @@
     <title>Kraken</title>
     <link>https://blog.kraken.com</link>
     <description>Kraken Blog Posts</description>
-    <lastBuildDate>Tue, 18 Aug 2026 02:00:24 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 09:00:32 GMT</lastBuildDate>
+    <item>
+      <title>Announcing US-listed-stock trading for EEA customers</title>
+      <link>https://blog.kraken.com/product/equities/announcing-us-listed-stock-trading-for-eea-customers</link>
+      <guid isPermaLink="true">https://blog.kraken.com/product/equities/announcing-us-listed-stock-trading-for-eea-customers</guid>
+      <pubDate>Tue, 18 Aug 2026 04:30:06 GMT</pubDate>
+      <description>European investors can now access thousands of regulated US stocks and 100+ xStocks side-by-side within one unified, multi-asset platform.</description>
+    </item>
     <item>
       <title>SODA is available for trading!</title>
       <link>https://blog.kraken.com/product/asset-listings/soda-is-available-for-trading</link>
@@ -137,13 +144,6 @@
       <guid isPermaLink="true">https://blog.kraken.com/product/asset-listings/bnkr-is-available-for-trading</guid>
       <pubDate>Thu, 30 Jul 2026 11:19:14 GMT</pubDate>
       <description>We’re thrilled to announce that BNKR is available for trading on Kraken! Funding and trading BNKR trading is live as of July 29, 2026. To add an asset to your Kraken account, navigate to Funding, select the asset you’re after, and hit ‘Deposit’.&amp;nbsp; Make sure to deposit your tokens into networks supported by Kraken. Deposits [&amp;hellip;]</description>
-    </item>
-    <item>
-      <title>Introducing Kraken Funded: trade with Kraken’s money, keep 80% of the profits</title>
-      <link>https://blog.kraken.com/product/funded/introducing-kraken-funded</link>
-      <guid isPermaLink="true">https://blog.kraken.com/product/funded/introducing-kraken-funded</guid>
-      <pubDate>Thu, 30 Jul 2026 10:00:20 GMT</pubDate>
-      <description>For a long time, access to capital has largely determined who gets the opportunity to significantly grow their wealth. Whether you&amp;#8217;re an active trader, a market enthusiast, or someone who simply understands how markets move, your earning potential is limited by how much money you have available to put to work. Kraken Funded is designed [&amp;hellip;]</description>
     </item>
   </channel>
 </rss>
