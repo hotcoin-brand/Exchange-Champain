@@ -4,7 +4,7 @@
     <title>Bybit</title>
     <link>https://announcements.bybit.global/</link>
     <description>Bybit All Categories</description>
-    <lastBuildDate>Tue, 18 Aug 2026 11:00:32 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 13:00:30 GMT</lastBuildDate>
     <item>
       <title>Token Buzz: Trade MOONSHOT. Win your share of up to a $100,000 prize pool.</title>
       <link>https://announcements.bybit.com/en-US/article/token-buzz-trade-moonshot-win-your-share-of-up-to-a-100-000-prize-pool--artcb5cc77066e4/</link>
@@ -356,6 +356,13 @@
       <description>[delistings] Bybit will be delisting the TSTBSCUSDT Perpetual Contract at Jul 27, 2026, 9:00AM UTC.</description>
     </item>
     <item>
+      <title>Risk Limit Adjustment for Selected Perpetual Contracts(Aug 20, 2026)</title>
+      <link>https://announcements.bybit.com/en-US/article/risk-limit-adjustment-for-selected-perpetual-contracts-aug-20-2026--artd5e4344ee603/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/risk-limit-adjustment-for-selected-perpetual-contracts-aug-20-2026--artd5e4344ee603/</guid>
+      <pubDate>Tue, 18 Aug 2026 15:12:52 GMT</pubDate>
+      <description>[maintenance_updates] Risk Limit Adjustment for Selected Perpetual Contracts(Aug 20, 2026)</description>
+    </item>
+    <item>
       <title>Bybit to Support Polygon (POL) Network Upgrade (Aug 18, 2026)</title>
       <link>https://announcements.bybit.com/en-US/article/bybit-to-support-polygon-pol-network-upgrade-aug-18-2026--arta7edc4b2ec1f/</link>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-polygon-pol-network-upgrade-aug-18-2026--arta7edc4b2ec1f/</guid>
@@ -417,13 +424,6 @@
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/uta-loans-expands-interest-free-borrowing-to-22-more-assets--artc99cdbe5836d/</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
       <description>[maintenance_updates] UTA Loans expands interest-free borrowing to 22 more assets</description>
-    </item>
-    <item>
-      <title>Bybit to Support Berachain (BERA) v1.4.4 Network Upgrade</title>
-      <link>https://announcements.bybit.com/en-US/article/bybit-to-support-berachain-bera-v1-4-4-network-upgrade--art96096bc57047/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-berachain-bera-v1-4-4-network-upgrade--art96096bc57047/</guid>
-      <pubDate>Wed, 05 Aug 2026 14:17:25 GMT</pubDate>
-      <description>[maintenance_updates] Bybit to Support Berachain (BERA) v1.4.4 Network Upgrade</description>
     </item>
   </channel>
 </rss>
