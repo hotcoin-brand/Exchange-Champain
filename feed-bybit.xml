@@ -4,7 +4,7 @@
     <title>Bybit</title>
     <link>https://announcements.bybit.global/</link>
     <description>Bybit All Categories</description>
-    <lastBuildDate>Tue, 18 Aug 2026 03:00:23 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 04:00:25 GMT</lastBuildDate>
     <item>
       <title>Token Buzz: Trade MOONSHOT. Win your share of up to a $100,000 prize pool.</title>
       <link>https://announcements.bybit.com/en-US/article/token-buzz-trade-moonshot-win-your-share-of-up-to-a-100-000-prize-pool--artcb5cc77066e4/</link>
@@ -356,6 +356,13 @@
       <description>[delistings] Bybit will be delisting the TSTBSCUSDT Perpetual Contract at Jul 27, 2026, 9:00AM UTC.</description>
     </item>
     <item>
+      <title>Bybit to Support Polygon (POL) Network Upgrade (Aug 18, 2026)</title>
+      <link>https://announcements.bybit.com/en-US/article/bybit-to-support-polygon-pol-network-upgrade-aug-18-2026--arta7edc4b2ec1f/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-polygon-pol-network-upgrade-aug-18-2026--arta7edc4b2ec1f/</guid>
+      <pubDate>Tue, 18 Aug 2026 11:02:00 GMT</pubDate>
+      <description>[maintenance_updates] Bybit to Support Polygon (POL) Network Upgrade (Aug 18, 2026)</description>
+    </item>
+    <item>
       <title>Bybit to Support ValueChain (SOSO) Network Upgrade (Aug 17, 2026)</title>
       <link>https://announcements.bybit.com/en-US/article/bybit-to-support-valuechain-soso-network-upgrade-aug-17-2026--artc9206d39f804/</link>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-valuechain-soso-network-upgrade-aug-17-2026--artc9206d39f804/</guid>
@@ -417,13 +424,6 @@
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-berachain-bera-v1-4-4-network-upgrade--art96096bc57047/</guid>
       <pubDate>Wed, 05 Aug 2026 14:17:25 GMT</pubDate>
       <description>[maintenance_updates] Bybit to Support Berachain (BERA) v1.4.4 Network Upgrade</description>
-    </item>
-    <item>
-      <title>Bybit to Support Cosmos (ATOM) v27.6.0 Network Upgrade</title>
-      <link>https://announcements.bybit.com/en-US/article/bybit-to-support-cosmos-atom-v27-6-0-network-upgrade--art6b2d598dcd85/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-cosmos-atom-v27-6-0-network-upgrade--art6b2d598dcd85/</guid>
-      <pubDate>Wed, 05 Aug 2026 14:11:05 GMT</pubDate>
-      <description>[maintenance_updates] Bybit to Support Cosmos (ATOM) v27.6.0 Network Upgrade</description>
     </item>
   </channel>
 </rss>
