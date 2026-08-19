@@ -4,7 +4,28 @@
     <title>KuCoin</title>
     <link>https://www.kucoin.com/announcements</link>
     <description>KuCoin All Categories</description>
-    <lastBuildDate>Wed, 19 Aug 2026 03:00:22 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 04:00:24 GMT</lastBuildDate>
+    <item>
+      <title>Ethereum (ETH) on Robinhood Chain is Now Supported on KuCoin</title>
+      <link>https://www.kucoin.com/announcement//en-ethereum-eth-on-robinhood-chain-is-now-supported-on-kucoin-20260819</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-ethereum-eth-on-robinhood-chain-is-now-supported-on-kucoin-20260819</guid>
+      <pubDate>Wed, 19 Aug 2026 03:54:00 GMT</pubDate>
+      <description>[latest-announcements] KuCoin now supports Ethereum (ETH) on Robinhood Chain, with deposit service officially live.</description>
+    </item>
+    <item>
+      <title>KuCoin Upgrades Interest-Free Lending: 0% Rates, UTA Support, and Lower Volume Requirements</title>
+      <link>https://www.kucoin.com/announcement//kucoin-upgrades-interest-free-lending-0-rates-uta-support-and-lower-volume-requirements22849-20</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//kucoin-upgrades-interest-free-lending-0-rates-uta-support-and-lower-volume-requirements22849-20</guid>
+      <pubDate>Wed, 19 Aug 2026 03:28:00 GMT</pubDate>
+      <description>[latest-announcements] LOC</description>
+    </item>
+    <item>
+      <title>KuCoin Will Adjust the Tick Size for Certain Spot Trading Pairs</title>
+      <link>https://www.kucoin.com/announcement//en-kucoin-will-adjust-the-tick-size-for-certain-spot-trading-pairs-20260819</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-will-adjust-the-tick-size-for-certain-spot-trading-pairs-20260819</guid>
+      <pubDate>Wed, 19 Aug 2026 03:16:00 GMT</pubDate>
+      <description>[latest-announcements] In order to increase market liquidity and improve trading experience, KuCoin will be adjusting the tick size (i.e., the minimum change in the unit price) of the following spot trading pairs at 06:00 on August 19, 2026 (UTC).</description>
+    </item>
     <item>
       <title>Announcement of KuCoin API Upgrade (2026-08-20)</title>
       <link>https://www.kucoin.com/announcement//en-announcement-of-kucoin-api-upgrade-2026-08-20</link>
@@ -53,27 +74,6 @@
       <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-content-mining-rewards-distribution-notice-august-10-august-16</guid>
       <pubDate>Mon, 17 Aug 2026 09:43:00 GMT</pubDate>
       <description>[latest-announcements] The Content Mining rewards generated on KuCoin Feed from August 10, 2026 to August 16, 2026 have now been successfully settled.</description>
-    </item>
-    <item>
-      <title>KuCoin Will Adjust the Tick Size for Certain Spot Trading Pairs</title>
-      <link>https://www.kucoin.com/announcement//en-kucoin-will-adjust-the-tick-size-for-certain-spot-trading-pairs-20260817</link>
-      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-will-adjust-the-tick-size-for-certain-spot-trading-pairs-20260817</guid>
-      <pubDate>Mon, 17 Aug 2026 02:49:00 GMT</pubDate>
-      <description>[latest-announcements] In order to increase market liquidity and improve trading experience, KuCoin will be adjusting the tick size (i.e., the minimum change in the unit price) of the following spot trading pairs at 06:00 on August 17, 2026 (UTC).</description>
-    </item>
-    <item>
-      <title>XDC Futures Trading Carnival — Share a Prize Pool of 500,000 XDC</title>
-      <link>https://www.kucoin.com/announcement//xdc-futures-trading-carnival-share-a-prize-pool-of-500000-xdc</link>
-      <guid isPermaLink="true">https://www.kucoin.com/announcement//xdc-futures-trading-carnival-share-a-prize-pool-of-500000-xdc</guid>
-      <pubDate>Sat, 15 Aug 2026 11:58:00 GMT</pubDate>
-      <description>[latest-announcements] XDC Futures Trading Carnival — Share a Prize Pool of 500,000 XDC</description>
-    </item>
-    <item>
-      <title>Changes to Funding Rate Intervals for PROMUSDT Perpetual Contracts (08-14)</title>
-      <link>https://www.kucoin.com/announcement//en-changes-to-funding-rate-intervals-for-promusdt-perpetual-contracts-08-14</link>
-      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-changes-to-funding-rate-intervals-for-promusdt-perpetual-contracts-08-14</guid>
-      <pubDate>Fri, 14 Aug 2026 10:19:00 GMT</pubDate>
-      <description>[latest-announcements] Changes to Funding Rate Intervals for PROMUSDT Perpetual Contracts (08-14)</description>
     </item>
     <item>
       <title>KuCoin Futures Will List ZHONGJIUSDT Stock Index Perpetual Contract (2026-08-14)</title>
@@ -130,6 +130,13 @@
       <guid isPermaLink="true">https://www.kucoin.com/announcement//en-kucoin-futures-will-list-gigadevusdt-stock-index-perpetual-contract-2026-08-04</guid>
       <pubDate>Tue, 04 Aug 2026 06:52:00 GMT</pubDate>
       <description>[new-listings] KuCoin Futures Will List GIGADEVUSDT Stock Index Perpetual Contract (2026-08-04)</description>
+    </item>
+    <item>
+      <title>XDC Futures Trading Carnival — Share a Prize Pool of 500,000 XDC</title>
+      <link>https://www.kucoin.com/announcement//xdc-futures-trading-carnival-share-a-prize-pool-of-500000-xdc</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//xdc-futures-trading-carnival-share-a-prize-pool-of-500000-xdc</guid>
+      <pubDate>Sat, 15 Aug 2026 11:58:00 GMT</pubDate>
+      <description>[activities] XDC Futures Trading Carnival — Share a Prize Pool of 500,000 XDC</description>
     </item>
     <item>
       <title>Unlock Up to 300 USDT Copy Trading Rewards</title>
