@@ -4,13 +4,34 @@
     <title>Kraken</title>
     <link>https://blog.kraken.com</link>
     <description>Kraken Blog Posts</description>
-    <lastBuildDate>Tue, 18 Aug 2026 10:00:29 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 01:00:20 GMT</lastBuildDate>
+    <item>
+      <title>Afloat, but not ahead: what a survey of Americans told us about banking, credit, and getting ahead</title>
+      <link>https://blog.kraken.com/news/industry-news/us-survey-banking-credit-and-getting-ahead</link>
+      <guid isPermaLink="true">https://blog.kraken.com/news/industry-news/us-survey-banking-credit-and-getting-ahead</guid>
+      <pubDate>Tue, 18 Aug 2026 09:30:02 GMT</pubDate>
+      <description>A national survey of 2,001 US adults, commissioned by Krak and conducted by Morning Consult, on how Americans feel about traditional banking, credit and debit cards, rewards programs, and the financial products meant to serve them.</description>
+    </item>
+    <item>
+      <title>Krak Card launches in the US: up to 2% cashback, 600+ currencies</title>
+      <link>https://blog.kraken.com/product/krak/us-launch</link>
+      <guid isPermaLink="true">https://blog.kraken.com/product/krak/us-launch</guid>
+      <pubDate>Tue, 18 Aug 2026 09:00:16 GMT</pubDate>
+      <description>Earn up to 2% in US dollars or Bitcoin on everyday debit card spending</description>
+    </item>
+    <item>
+      <title>Same position, half the margin: leverage goes up to 10x on Kraken Prop</title>
+      <link>https://blog.kraken.com/product/prop/10x-leverage</link>
+      <guid isPermaLink="true">https://blog.kraken.com/product/prop/10x-leverage</guid>
+      <pubDate>Tue, 18 Aug 2026 06:09:55 GMT</pubDate>
+      <description>If you already have a Kraken Prop account or an evaluation in progress, nothing you’re doing today needs to change. The extra leverage is simply there when you want it.</description>
+    </item>
     <item>
       <title>Announcing US-listed-stock trading for EEA customers</title>
       <link>https://blog.kraken.com/product/equities/announcing-us-listed-stock-trading-for-eea-customers</link>
       <guid isPermaLink="true">https://blog.kraken.com/product/equities/announcing-us-listed-stock-trading-for-eea-customers</guid>
       <pubDate>Tue, 18 Aug 2026 04:30:06 GMT</pubDate>
-      <description>European investors can now access thousands of regulated US stocks and 100+ xStocks side-by-side within one unified, multi-asset platform.</description>
+      <description>European investors can now access thousands of regulated US stocks and 700+ xStocks side-by-side within one unified, multi-asset platform.</description>
     </item>
     <item>
       <title>SODA is available for trading!</title>
@@ -123,27 +144,6 @@
       <guid isPermaLink="true">https://blog.kraken.com/economic-brief/august-5-2026</guid>
       <pubDate>Wed, 05 Aug 2026 04:59:36 GMT</pubDate>
       <description>This window is shaped less by a single catalyst and more by a sequence: jobs data, two inflation reports, and Fed minutes that reveal how divided policymakers really are.</description>
-    </item>
-    <item>
-      <title>xU3O8 is available for trading!</title>
-      <link>https://blog.kraken.com/product/asset-listings/xu3o8-is-available-for-trading</link>
-      <guid isPermaLink="true">https://blog.kraken.com/product/asset-listings/xu3o8-is-available-for-trading</guid>
-      <pubDate>Thu, 30 Jul 2026 11:24:12 GMT</pubDate>
-      <description>We’re thrilled to announce that xU3O8 is available for trading on Kraken! Funding and trading xU3O8 trading is live as of July 30, 2026. To add an asset to your Kraken account, navigate to Funding, select the asset you’re after, and hit ‘Deposit’.&amp;nbsp; Make sure to deposit your tokens into networks supported by Kraken. Deposits [&amp;hellip;]</description>
-    </item>
-    <item>
-      <title>SN44 is available for trading!</title>
-      <link>https://blog.kraken.com/product/asset-listings/sn44-is-available-for-trading</link>
-      <guid isPermaLink="true">https://blog.kraken.com/product/asset-listings/sn44-is-available-for-trading</guid>
-      <pubDate>Thu, 30 Jul 2026 11:21:13 GMT</pubDate>
-      <description>We’re thrilled to announce that SN44 is available for trading on Kraken! Funding and trading SN44 trading is live as of July 30, 2026. To add an asset to your Kraken account, navigate to Funding, select the asset you’re after, and hit ‘Deposit’.&amp;nbsp; Make sure to deposit your tokens into networks supported by Kraken. Deposits [&amp;hellip;]</description>
-    </item>
-    <item>
-      <title>BNKR is available for trading!</title>
-      <link>https://blog.kraken.com/product/asset-listings/bnkr-is-available-for-trading</link>
-      <guid isPermaLink="true">https://blog.kraken.com/product/asset-listings/bnkr-is-available-for-trading</guid>
-      <pubDate>Thu, 30 Jul 2026 11:19:14 GMT</pubDate>
-      <description>We’re thrilled to announce that BNKR is available for trading on Kraken! Funding and trading BNKR trading is live as of July 29, 2026. To add an asset to your Kraken account, navigate to Funding, select the asset you’re after, and hit ‘Deposit’.&amp;nbsp; Make sure to deposit your tokens into networks supported by Kraken. Deposits [&amp;hellip;]</description>
     </item>
   </channel>
 </rss>
