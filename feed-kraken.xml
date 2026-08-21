@@ -4,7 +4,14 @@
     <title>Kraken</title>
     <link>https://blog.kraken.com</link>
     <description>Kraken Blog Posts</description>
-    <lastBuildDate>Fri, 21 Aug 2026 16:00:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 17:00:04 GMT</lastBuildDate>
+    <item>
+      <title>ALIGN is available for trading!</title>
+      <link>https://blog.kraken.com/product/asset-listings/align-is-available-for-trading</link>
+      <guid isPermaLink="true">https://blog.kraken.com/product/asset-listings/align-is-available-for-trading</guid>
+      <pubDate>Fri, 21 Aug 2026 11:24:17 GMT</pubDate>
+      <description>We’re thrilled to announce that ALIGN is available for trading on Kraken! Funding and trading ALIGN trading is live as of August 21, 2026. To add an asset to your Kraken account, navigate to Funding, select the asset you’re after, and hit ‘Deposit’.&amp;nbsp; Make sure to deposit your tokens into networks supported by Kraken. Deposits [&amp;hellip;]</description>
+    </item>
     <item>
       <title>Introducing AI side panel assistant: our new in-chart analyst on Kraken Pro</title>
       <link>https://blog.kraken.com/product/pro/introducing-ai-side-panel-assistant</link>
@@ -137,13 +144,6 @@
       <guid isPermaLink="true">https://blog.kraken.com/product/engineering/10x-the-load</guid>
       <pubDate>Thu, 06 Aug 2026 09:02:26 GMT</pubDate>
       <description>Because the quality and stability of our platform IS the product.</description>
-    </item>
-    <item>
-      <title>New security features: how to verify a call is really from Kraken Support</title>
-      <link>https://blog.kraken.com/product/security/how-to-verify-a-call-is-really-from-kraken-support</link>
-      <guid isPermaLink="true">https://blog.kraken.com/product/security/how-to-verify-a-call-is-really-from-kraken-support</guid>
-      <pubDate>Thu, 06 Aug 2026 08:31:17 GMT</pubDate>
-      <description>Security is top of mind across crypto right now, and phone scams remain one of the easiest ways fraudsters catch people off guard. We’ve introduced new features that help you confirm it’s really Kraken Support on the line, and hang up with confidence when it’s not.</description>
     </item>
   </channel>
 </rss>
