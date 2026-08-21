@@ -4,14 +4,7 @@
     <title>Kraken</title>
     <link>https://blog.kraken.com</link>
     <description>Kraken Blog Posts</description>
-    <lastBuildDate>Fri, 21 Aug 2026 13:00:04 GMT</lastBuildDate>
-    <item>
-      <title>Introducing AI side panel assistant: our new in-chart analyst on Kraken Pro</title>
-      <link>https://blog.kraken.com/product/pro/introducing-ai-side-panel-assistant</link>
-      <guid isPermaLink="true">https://blog.kraken.com/product/pro/introducing-ai-side-panel-assistant</guid>
-      <pubDate>Fri, 21 Aug 2026 07:56:45 GMT</pubDate>
-      <description>Introducing a faster way to build the context you were always going to build yourself, using the chart you already have open.</description>
-    </item>
+    <lastBuildDate>Fri, 21 Aug 2026 14:00:04 GMT</lastBuildDate>
     <item>
       <title>The Commodities Cup: trade oil, gas, and copper for a share of $10,000 USDG</title>
       <link>https://blog.kraken.com/product/promotions/the-commodities-cup</link>
@@ -144,6 +137,13 @@
       <guid isPermaLink="true">https://blog.kraken.com/product/security/how-to-verify-a-call-is-really-from-kraken-support</guid>
       <pubDate>Thu, 06 Aug 2026 08:31:17 GMT</pubDate>
       <description>Security is top of mind across crypto right now, and phone scams remain one of the easiest ways fraudsters catch people off guard. We’ve introduced new features that help you confirm it’s really Kraken Support on the line, and hang up with confidence when it’s not.</description>
+    </item>
+    <item>
+      <title>QUID is available for trading!</title>
+      <link>https://blog.kraken.com/product/asset-listings/quid-is-available-for-trading</link>
+      <guid isPermaLink="true">https://blog.kraken.com/product/asset-listings/quid-is-available-for-trading</guid>
+      <pubDate>Wed, 05 Aug 2026 17:15:56 GMT</pubDate>
+      <description>We’re thrilled to announce that QUID is available for trading on Kraken! Funding and trading QUID trading is live as of August 4, 2026. To add an asset to your Kraken account, navigate to Funding, select the asset you’re after, and hit ‘Deposit’.&amp;nbsp; Make sure to deposit your tokens into networks supported by Kraken. Deposits [&amp;hellip;]</description>
     </item>
   </channel>
 </rss>
