@@ -4,7 +4,14 @@
     <title>Kraken</title>
     <link>https://blog.kraken.com</link>
     <description>Kraken Blog Posts</description>
-    <lastBuildDate>Mon, 24 Aug 2026 11:00:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 22:01:13 GMT</lastBuildDate>
+    <item>
+      <title>Introducing Price Predictor: 10 seconds a day, and a free shot at 1 Bitcoin (BTC)</title>
+      <link>https://blog.kraken.com/product/promotions/price-predictor</link>
+      <guid isPermaLink="true">https://blog.kraken.com/product/promotions/price-predictor</guid>
+      <pubDate>Mon, 24 Aug 2026 11:07:14 GMT</pubDate>
+      <description>A free once-a-day game in Kraken Pro. Call Bitcoin higher or lower, watch a 10-second window play out, and every prediction you make is an entry to win 1 BTC.</description>
+    </item>
     <item>
       <title>ALIGN is available for trading!</title>
       <link>https://blog.kraken.com/product/asset-listings/align-is-available-for-trading</link>
@@ -137,13 +144,6 @@
       <guid isPermaLink="true">https://blog.kraken.com/product/staking/monad</guid>
       <pubDate>Thu, 06 Aug 2026 09:47:07 GMT</pubDate>
       <description>Two simple ways to stake your idle MON and put it to work are now available</description>
-    </item>
-    <item>
-      <title>War games: how we built Kraken to handle 10x the load</title>
-      <link>https://blog.kraken.com/product/engineering/10x-the-load</link>
-      <guid isPermaLink="true">https://blog.kraken.com/product/engineering/10x-the-load</guid>
-      <pubDate>Thu, 06 Aug 2026 09:02:26 GMT</pubDate>
-      <description>Because the quality and stability of our platform IS the product.</description>
     </item>
   </channel>
 </rss>
