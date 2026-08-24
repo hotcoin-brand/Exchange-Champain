@@ -4,7 +4,14 @@
     <title>KuCoin</title>
     <link>https://www.kucoin.com/announcements</link>
     <description>KuCoin All Categories</description>
-    <lastBuildDate>Mon, 24 Aug 2026 03:00:06 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 04:00:06 GMT</lastBuildDate>
+    <item>
+      <title>Announcement on UTA API(Management Pool) Rate Limit Rule Upgrade</title>
+      <link>https://www.kucoin.com/announcement//en-announcement-on-uta-api-management-pool-rate-limit-rule-upgrade</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-announcement-on-uta-api-management-pool-rate-limit-rule-upgrade</guid>
+      <pubDate>Mon, 24 Aug 2026 03:18:00 GMT</pubDate>
+      <description>[latest-announcements] To continuously improve the API resource management framework and enhance the efficiency and flexibility of API resource allocation for users, we have previously completed the upgrade of the Unified Trading Account (UTA) API rate limit mechanism, introducing the “Master-Sub Account Unified Rate Limit + Self-Managed Quota Allocation” model(link:https://www.kucoin.com/announcement/en-announcement-on-uta-api-rate-limit-rule-upgrade).</description>
+    </item>
     <item>
       <title>KuCoin Has Temporarily Closed the Deposit Service of Warden (WARD)</title>
       <link>https://www.kucoin.com/announcement//en-kucoin-has-temporarily-closed-the-deposit-service-of-warden-ward-20260824</link>
@@ -69,13 +76,6 @@
       <description>[latest-announcements] Due to essential maintenance, we have suspended the deposit and withdrawal services for BounceBit (BB).</description>
     </item>
     <item>
-      <title>Bertram The Pomeranian (BERT) GemSlot Campaign — Trade to Share a 15,000 USDT Prize Pool</title>
-      <link>https://www.kucoin.com/announcement//en-bertram-the-pomeranian-bert-gemslot-campaign-trade-to-share-a-15000-usdt-prize-pool</link>
-      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-bertram-the-pomeranian-bert-gemslot-campaign-trade-to-share-a-15000-usdt-prize-pool</guid>
-      <pubDate>Thu, 20 Aug 2026 04:40:00 GMT</pubDate>
-      <description>[latest-announcements] We will be launching Bertram The Pomeranian (BERT) GemSlot campaign to give away a 15,000 USDT prize pool to qualified KuCoin users!</description>
-    </item>
-    <item>
       <title>HODLer Airdrops: Aligned (ALIGN) World Premiere Listing on KuCoin</title>
       <link>https://www.kucoin.com/announcement//en-hodler-airdrops-aligned-align-world-premiere-listing-on-kucoin</link>
       <guid isPermaLink="true">https://www.kucoin.com/announcement//en-hodler-airdrops-aligned-align-world-premiere-listing-on-kucoin</guid>
@@ -137,6 +137,13 @@
       <guid isPermaLink="true">https://www.kucoin.com/announcement//en-dappos-dos-listed-on-kucoin</guid>
       <pubDate>Tue, 11 Aug 2026 08:15:00 GMT</pubDate>
       <description>[new-listings] Trading: 12:00 on August 11, 2026 (UTC)</description>
+    </item>
+    <item>
+      <title>Bertram The Pomeranian (BERT) GemSlot Campaign — Trade to Share a 15,000 USDT Prize Pool</title>
+      <link>https://www.kucoin.com/announcement//en-bertram-the-pomeranian-bert-gemslot-campaign-trade-to-share-a-15000-usdt-prize-pool</link>
+      <guid isPermaLink="true">https://www.kucoin.com/announcement//en-bertram-the-pomeranian-bert-gemslot-campaign-trade-to-share-a-15000-usdt-prize-pool</guid>
+      <pubDate>Thu, 20 Aug 2026 04:40:00 GMT</pubDate>
+      <description>[activities] We will be launching Bertram The Pomeranian (BERT) GemSlot campaign to give away a 15,000 USDT prize pool to qualified KuCoin users!</description>
     </item>
     <item>
       <title>SwarmBase (SWARM) Listing Campaign — 620,000 SWARM to Giveaway</title>
