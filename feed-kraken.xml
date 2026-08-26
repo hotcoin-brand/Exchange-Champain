@@ -4,7 +4,14 @@
     <title>Kraken</title>
     <link>https://blog.kraken.com</link>
     <description>Kraken Blog Posts</description>
-    <lastBuildDate>Tue, 25 Aug 2026 05:00:54 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 17:00:49 GMT</lastBuildDate>
+    <item>
+      <title>Kraken Pro is now available on TradingView</title>
+      <link>https://blog.kraken.com/product/pro/now-available-on-tradingview</link>
+      <guid isPermaLink="true">https://blog.kraken.com/product/pro/now-available-on-tradingview</guid>
+      <pubDate>Tue, 25 Aug 2026 09:31:33 GMT</pubDate>
+      <description>Connect your Kraken Pro account and trade directly from the TradingView terminal</description>
+    </item>
     <item>
       <title>Introducing Price Predictor: 10 seconds a day, and a free shot at 1 Bitcoin (BTC)</title>
       <link>https://blog.kraken.com/product/promotions/price-predictor</link>
@@ -137,13 +144,6 @@
       <guid isPermaLink="true">https://blog.kraken.com/product/margin/btc-usd-20x-on-kraken-pro</guid>
       <pubDate>Tue, 11 Aug 2026 11:40:28 GMT</pubDate>
       <description>Full margin visibility remains available at every step of a position’s life. A higher ceiling gives you more room to size a position. It doesn’t change how that position is measured, managed, or charged.</description>
-    </item>
-    <item>
-      <title>MON staking is live globally at up to 12% APY</title>
-      <link>https://blog.kraken.com/product/staking/monad</link>
-      <guid isPermaLink="true">https://blog.kraken.com/product/staking/monad</guid>
-      <pubDate>Thu, 06 Aug 2026 09:47:07 GMT</pubDate>
-      <description>Two simple ways to stake your idle MON and put it to work are now available</description>
     </item>
   </channel>
 </rss>
