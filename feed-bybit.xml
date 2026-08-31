@@ -4,7 +4,7 @@
     <title>Bybit</title>
     <link>https://announcements.bybit.global/</link>
     <description>Bybit All Categories</description>
-    <lastBuildDate>Mon, 31 Aug 2026 06:00:17 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 07:00:17 GMT</lastBuildDate>
     <item>
       <title>Crypto bull is back: Join the squeeze to earn a share of 200K USDT</title>
       <link>https://announcements.bybit.com/en-US/article/crypto-bull-is-back-join-the-squeeze-to-earn-a-share-of-200k-usdt--art4c874c175751/</link>
@@ -363,6 +363,13 @@
       <description>[maintenance_updates] [Important] Margin Trading position tier updates on Aug 28, 2026</description>
     </item>
     <item>
+      <title>Bybit to Support ValueChain (SOSO) Network Upgrade (Aug 31, 2026)</title>
+      <link>https://announcements.bybit.com/en-US/article/bybit-to-support-valuechain-soso-network-upgrade-aug-31-2026--art42a032578dde/</link>
+      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-valuechain-soso-network-upgrade-aug-31-2026--art42a032578dde/</guid>
+      <pubDate>Mon, 31 Aug 2026 14:22:19 GMT</pubDate>
+      <description>[maintenance_updates] Bybit to Support ValueChain (SOSO) Network Upgrade (Aug 31, 2026)</description>
+    </item>
+    <item>
       <title>Risk Limit Adjustment for Selected Perpetual Contracts(Aug 27, 2026)</title>
       <link>https://announcements.bybit.com/en-US/article/risk-limit-adjustment-for-selected-perpetual-contracts-aug-27-2026--art7dd20ff7131a/</link>
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/risk-limit-adjustment-for-selected-perpetual-contracts-aug-27-2026--art7dd20ff7131a/</guid>
@@ -417,13 +424,6 @@
       <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-megaeth-mega-rex6-network-upgrade--arte826fa601e12/</guid>
       <pubDate>Mon, 24 Aug 2026 16:01:39 GMT</pubDate>
       <description>[maintenance_updates] Bybit to Support MegaETH (MEGA) rex6 Network Upgrade</description>
-    </item>
-    <item>
-      <title>Bybit to Support BNB Smart Chain (BSC) v1.7.7 Network Upgrade</title>
-      <link>https://announcements.bybit.com/en-US/article/bybit-to-support-bnb-smart-chain-bsc-v1-7-7-network-upgrade--art473f9126ee66/</link>
-      <guid isPermaLink="true">https://announcements.bybit.com/en-US/article/bybit-to-support-bnb-smart-chain-bsc-v1-7-7-network-upgrade--art473f9126ee66/</guid>
-      <pubDate>Mon, 24 Aug 2026 15:55:31 GMT</pubDate>
-      <description>[maintenance_updates] Bybit to Support BNB Smart Chain (BSC) v1.7.7 Network Upgrade</description>
     </item>
   </channel>
 </rss>
